@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  GreenScanAI
+//
+//  Created by Vishal Vaghasiya on 22/01/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+PLANTNET_API_KEY = 2b10604TolZHOS1Qb3fqYnC5pu
+KINDWISE_API_KEY = your_key_here

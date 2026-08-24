@@ -1,0 +1,17 @@
+xcassets:
+  paths:
+   - MVVM/Resources/Assets.xcassets
+  templateName: swift5
+  output: MVVM/Generated/SwiftGen/Assets.swift
+
+fonts:
+  inputs: MVVM/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: MVVM/Generated/SwiftGen/Fonts.swift
+
+ib:
+  inputs: MVVM/Features/
+  outputs:
+    templateName: scenes-swift4
+    output: MVVM/Generated/SwiftGen/Storyboards.swift

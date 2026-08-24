@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10'
+
+target 'editorTest' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for editorTest
+  pod 'iOSPhotoEditor', '~> 1.0'
+
+end
+post_install do |installer|
+  # Get Xcode version and check if it's >= 15
+  xcode_base_version = `xcodebuild -version | grep 'Xcode' | awk '{print $2}' | cut -d . -f 1`.strip
+
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      # Disable Bitcode for all targets
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+
+      # Set the minimum iOS deployment target to 15.0
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+
+      # Optional: Exclude arm64 for simulators (if required)
+      # config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+
+      # If Xcode version is 15 or higher, modify xcconfig file
+      if Integer(xcode_base_version) >= 15
+        xcconfig_path = config.base_configuration_reference.real_path
+        if File.exist?(xcconfig_path)
+          xcconfig = File.read(xcconfig_path)
+          xcconfig_mod = xcconfig.gsub(/DT_TOOLCHAIN_DIR/, "TOOLCHAIN_DIR")
+          File.open(xcconfig_path, "w") { |file| file << xcconfig_mod }
+        end
+      end
+    end
+  end
+end

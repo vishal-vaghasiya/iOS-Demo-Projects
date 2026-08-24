@@ -1,0 +1,20 @@
+[
+  {
+    "issue": "acne",
+    "summary": "Common skin issue caused by clogged pores.",
+    "advice": [
+      "Use salicylic acid cleanser",
+      "Avoid touching your face",
+      "Consult a dermatologist if severe"
+    ]
+  },
+  {
+    "issue": "eczema",
+    "summary": "Chronic skin inflammation causing redness and itchiness.",
+    "advice": [
+      "Moisturize regularly",
+      "Avoid harsh soaps",
+      "Use corticosteroid cream if prescribed"
+    ]
+  }
+]

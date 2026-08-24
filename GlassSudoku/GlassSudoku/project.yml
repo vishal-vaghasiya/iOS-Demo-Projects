@@ -1,0 +1,41 @@
+name: GlassSudoku
+options:
+  bundleIdPrefix: com.glasssudoku
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_PREVIEWS: YES
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: GlassSudoku
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+    PRODUCT_BUNDLE_IDENTIFIER: com.glasssudoku.app
+    CODE_SIGN_STYLE: Automatic
+
+targets:
+  GlassSudoku:
+    type: application
+    platform: iOS
+    sources:
+      - path: GlassSudoku
+        excludes:
+          - "**/*.md"
+    resources:
+      - path: GlassSudoku/Resources/sudoku_answers.json
+      - path: GlassSudoku/Resources/bg_premium.jpg
+      - path: GlassSudoku/Resources/bg_premium@2x.jpg
+      - path: GlassSudoku/Resources/bg_premium@3x.jpg
+    settings:
+      base:
+        PRODUCT_NAME: GlassSudoku

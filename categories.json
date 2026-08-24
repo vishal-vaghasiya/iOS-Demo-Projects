@@ -1,0 +1,162 @@
+{
+  "expense": [
+    {
+      "id": 1,
+      "name": "Food & Drink",
+      "icons": ["fork.knife","cup.and.saucer.fill","wineglass.fill","birthday.cake.fill","takeoutbag.and.cup.and.straw.fill"],
+      "color": "#FF6347"
+    },
+    {
+      "id": 2,
+      "name": "Transport",
+      "icons": ["car.fill","bus.fill","bicycle","airplane","fuelpump.fill","scooter","tram.fill"],
+      "color": "#4682B4"
+    },
+    {
+      "id": 3,
+      "name": "Shopping",
+      "icons": ["cart.fill","bag.fill","creditcard.fill","gift.fill","tag.fill"],
+      "color": "#FF69B4"
+    },
+    {
+      "id": 4,
+      "name": "Bills & Utilities",
+      "icons": ["house.fill","bolt.fill","wifi","lightbulb.fill","water.waves"],
+      "color": "#FFD700"
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "icons": ["gamecontroller.fill","music.note","play.tv.fill","ticket.fill","theatermasks.fill"],
+      "color": "#8A2BE2"
+    },
+    {
+      "id": 6,
+      "name": "Health & Fitness",
+      "icons": ["cross.fill","heart.fill","bandage.fill","pills.fill","figure.run"],
+      "color": "#32CD32"
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "icons": ["book.fill","graduationcap.fill","pencil","brain.head.profile"],
+      "color": "#20B2AA"
+    },
+    {
+      "id": 8,
+      "name": "Travel",
+      "icons": ["map.fill","globe","suitcase.fill","bed.double.fill","tram.fill"],
+      "color": "#FF8C00"
+    },
+    {
+      "id": 9,
+      "name": "Personal Care",
+      "icons": ["scissors","sparkles","drop.fill","hand.raised.fill"],
+      "color": "#FFB6C1"
+    },
+    {
+      "id": 10,
+      "name": "Subscriptions",
+      "icons": ["doc.text.fill","play.rectangle.fill","newspaper.fill","tv.fill","music.note.list"],
+      "color": "#00CED1"
+    },
+    {
+      "id": 11,
+      "name": "Gifts & Donations",
+      "icons": ["gift.fill","heart.circle.fill","hands.sparkles.fill","person.2.fill","star.fill"],
+      "color": "#FF4500"
+    },
+    {
+      "id": 12,
+      "name": "Pets",
+      "icons": ["pawprint.fill","bone.fill","hare.fill","tortoise.fill","fish.fill"],
+      "color": "#DAA520"
+    },
+    {
+      "id": 13,
+      "name": "Clothing",
+      "icons": ["tshirt.fill","suit.heart.fill","socks.fill","scissors","bag.fill"],
+      "color": "#FF1493"
+    },
+    {
+      "id": 14,
+      "name": "Hobbies",
+      "icons": ["paintpalette.fill","camera.fill","pianokeys.inverse","gamecontroller.fill","book.fill"],
+      "color": "#7B68EE"
+    },
+    {
+      "id": 15,
+      "name": "Insurance",
+      "icons": ["shield.fill","cross.fill","bandage.fill","person.crop.circle.badge.checkmark","doc.text.fill"],
+      "color": "#708090"
+    },
+    {
+      "id": 16,
+      "name": "Others",
+      "icons": ["square.grid.2x2","archivebox.fill","briefcase.fill","note.text","ellipsis.circle.fill"],
+      "color": "#A9A9A9"
+    }
+  ],
+  "income": [
+    {
+      "id": 1,
+      "name": "Salary",
+      "icons": ["banknote.fill","briefcase.fill","building.columns.fill"],
+      "color": "#228B22"
+    },
+    {
+      "id": 2,
+      "name": "Business",
+      "icons": ["chart.bar.fill","building.2.fill","shippingbox.fill"],
+      "color": "#FF8C00"
+    },
+    {
+      "id": 3,
+      "name": "Investments",
+      "icons": ["chart.line.uptrend.xyaxis","bitcoinsign.circle.fill","dollarsign.circle.fill"],
+      "color": "#2E8B57"
+    },
+    {
+      "id": 4,
+      "name": "Rental Income",
+      "icons": ["house.fill","key.fill","bed.double.fill"],
+      "color": "#6A5ACD"
+    },
+    {
+      "id": 5,
+      "name": "Gifts & Others",
+      "icons": ["gift.fill","hand.raised.fill","person.crop.circle.badge.plus"],
+      "color": "#FF69B4"
+    },
+    {
+      "id": 6,
+      "name": "Freelancing",
+      "icons": ["laptopcomputer","pencil.tip","briefcase.fill","doc.text.fill","person.fill"],
+      "color": "#00BFFF"
+    },
+    {
+      "id": 7,
+      "name": "Bonuses",
+      "icons": ["gift.fill","star.fill","banknote.fill","sparkles","hand.thumbsup.fill"],
+      "color": "#FFD700"
+    },
+    {
+      "id": 8,
+      "name": "Investments - Stocks",
+      "icons": ["chart.bar.doc.horizontal.fill","chart.line.uptrend.xyaxis","bitcoinsign.circle.fill","dollarsign.circle.fill","banknote.fill"],
+      "color": "#3CB371"
+    },
+    {
+      "id": 9,
+      "name": "Investments - Crypto",
+      "icons": ["bitcoinsign.circle.fill","dollarsign.circle.fill","chart.pie.fill","hexagon.fill","sparkle"],
+      "color": "#8A2BE2"
+    },
+    {
+      "id": 10,
+      "name": "Other Income",
+      "icons": ["person.fill.questionmark","hand.raised.fill","gift.fill","star.fill","briefcase.fill"],
+      "color": "#778899"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "MLModelVersionStringKey" : "8.3.166",
+  "MLModelDescriptionKey" : "Ultralytics YOLO11s-cls model trained on \/Users\/rajesh\/AIML\/skin_dataset\/Article\/code_examples\/article\/skin_dataset",
+  "MLModelCreatorDefinedKey" : {
+    "batch" : "1",
+    "com.github.apple.coremltools.version" : "8.3.0",
+    "docs" : "https:\/\/docs.ultralytics.com",
+    "imgsz" : "[224, 224]",
+    "names" : "{0: 'Acne', 1: 'Blackheads', 2: 'Dark Spots', 3: 'Dry Skin', 4: 'Normal Skin', 5: 'Oily Skin', 6: 'Wrinkles'}",
+    "channels" : "3",
+    "stride" : "1",
+    "args" : "{'batch': 1, 'half': False, 'int8': False, 'nms': False}",
+    "date" : "2025-07-18T15:02:06.944737",
+    "com.github.apple.coremltools.source_dialect" : "TorchScript",
+    "com.github.apple.coremltools.source" : "torch==2.4.1",
+    "com.apple.coreml.model.preview.type" : "imageClassifier",
+    "task" : "classify"
+  },
+  "MLModelAuthorKey" : "Ultralytics",
+  "MLModelLicenseKey" : "AGPL-3.0 License (https:\/\/ultralytics.com\/license)"
+}

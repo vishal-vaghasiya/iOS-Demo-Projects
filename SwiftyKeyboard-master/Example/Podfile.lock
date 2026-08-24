@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyKeyboard (0.1.1)
+
+DEPENDENCIES:
+  - SwiftyKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyKeyboard: 8f0ef6e34787b1666a85eda9e9b4c8871e18aa0e
+
+PODFILE CHECKSUM: 4934f5d402eecceb76778ee08a98b356414c4a84
+
+COCOAPODS: 1.11.2

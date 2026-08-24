@@ -1,0 +1,15 @@
+{
+  "originHash" : "be66ee74a5caac01ce5a9d2bdab0834d5b644a02bb2c90e514ad1d0c6fe3cf1b",
+  "pins" : [
+    {
+      "identity" : "floatratingkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vishal-vaghasiya/FloatRatingKit.git",
+      "state" : {
+        "revision" : "366e767bfeaef581486a25dd9d20a8d1d026ebb3",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
