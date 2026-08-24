@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="S4g-wQ-WHZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pa0-hB-ep7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gj3-jl-LXw">
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="cgA-Xu-7H1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GmS-eF-UtT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--Private Notes-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="PrivateNotesVC" title="Private Notes" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="PrivateNotesVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wIp-y2-S3w">
+                                <rect key="frame" x="0.0" y="162" width="393" height="622"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="axB-K8-Qb8"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="UNd-fz-YIK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="wIp-y2-S3w" secondAttribute="trailing" id="K6C-Nt-uHg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="wIp-y2-S3w" secondAttribute="bottom" id="ZTC-up-Q1D"/>
+                            <constraint firstItem="wIp-y2-S3w" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="s9O-nJ-r56"/>
+                            <constraint firstItem="wIp-y2-S3w" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="wcg-fO-EU6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Private Notes" id="TWE-3s-FVZ">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="3Vt-vs-EA2">
+                                <connections>
+                                    <action selector="addButtonClick:" destination="Y6W-OH-hqX" id="Hgu-dg-wMf"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="edit" id="r3N-bw-95I">
+                                <connections>
+                                    <action selector="editButtonClick:" destination="Y6W-OH-hqX" id="T01-VP-SeI"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="notesTV" destination="wIp-y2-S3w" id="tsj-Dx-tMs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="818" y="-27"/>
+        </scene>
+        <!--Create Note-->
+        <scene sceneID="Hw9-Ks-ApW">
+            <objects>
+                <viewController storyboardIdentifier="CreateNoteVC" title="Create Note" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AeE-cr-448" customClass="CreateNoteVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ibK-UW-4Q4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UCc-BY-b3y">
+                                <rect key="frame" x="20" y="138" width="353" height="626"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="underPageBackgroundColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rl5-QM-fa3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UCc-BY-b3y" firstAttribute="leading" secondItem="rl5-QM-fa3" secondAttribute="leading" constant="20" id="0Ka-q2-KnS"/>
+                            <constraint firstItem="rl5-QM-fa3" firstAttribute="bottom" secondItem="UCc-BY-b3y" secondAttribute="bottom" constant="20" id="ASk-s0-kcG"/>
+                            <constraint firstItem="UCc-BY-b3y" firstAttribute="top" secondItem="rl5-QM-fa3" secondAttribute="top" constant="20" id="Wrw-hB-K9r"/>
+                            <constraint firstItem="rl5-QM-fa3" firstAttribute="trailing" secondItem="UCc-BY-b3y" secondAttribute="trailing" constant="20" id="urd-Af-9TN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create Notes" id="dYJ-KD-Jp2">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="1at-Ah-7OA">
+                            <connections>
+                                <action selector="saveButtonClick:" destination="AeE-cr-448" id="PyV-uK-Jvb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="noteTextview" destination="UCc-BY-b3y" id="vzz-0g-Sja"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NZ0-rl-mTP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1566" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="underPageBackgroundColor">
+            <color red="0.70980392156862748" green="0.71764705882352942" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

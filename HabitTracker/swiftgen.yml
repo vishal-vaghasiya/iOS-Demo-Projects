@@ -1,0 +1,17 @@
+xcassets:
+  inputs: HabitTracker/Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: HabitTracker/Resources/SwiftGen/Images.swift
+
+fonts:
+  inputs: HabitTracker/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: HabitTracker/Resources/SwiftGen/Fonts.swift
+
+ib:
+  inputs: HabitTracker/UI
+  outputs:
+    templateName: scenes-swift4
+    output: HabitTracker/Resources/SwiftGen/Storyboards.swift

@@ -1,0 +1,55 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DualWhatsApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DualWhatsApp
+  pod 'SwiftGen', '~> 6.6'
+  
+  pod 'Alamofire', '~> 5.10'
+  
+  pod 'Toast-Swift', '~> 5.1'
+  pod 'ReachabilitySwift'
+  pod 'IQKeyboardManagerSwift', '~> 8.0'
+  pod 'IQKeyboardToolbarManager'
+  
+  pod 'Google-Mobile-Ads-SDK', '~> 12.12'
+  
+  pod 'Firebase', '~> 12.4'
+  pod 'FirebaseCrashlytics', '~> 12.4'
+  pod 'FirebaseAnalytics', '~> 12.4'
+  pod 'FirebaseRemoteConfig', '~> 12.4'
+  
+  pod 'SVProgressHUD'
+  
+  pod 'libwebp', '~> 1.5'
+  pod 'CropViewController', '2.7.4'
+  
+  pod 'ZIPFoundation', '~> 0.9'
+end
+post_install do |installer|
+  # Get Xcode version and check if it's >= 15
+  xcode_base_version = `xcodebuild -version | grep 'Xcode' | awk '{print $2}' | cut -d . -f 1`.strip
+
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      # Disable Bitcode for all targets
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+
+      # Set the minimum iOS deployment target to 15.0
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+
+      # If Xcode version is 15 or higher, modify xcconfig file
+      if Integer(xcode_base_version) >= 15
+        xcconfig_path = config.base_configuration_reference.real_path
+        if File.exist?(xcconfig_path)
+          xcconfig = File.read(xcconfig_path)
+          xcconfig_mod = xcconfig.gsub(/DT_TOOLCHAIN_DIR/, "TOOLCHAIN_DIR")
+          File.open(xcconfig_path, "w") { |file| file << xcconfig_mod }
+        end
+      end
+    end
+  end
+end

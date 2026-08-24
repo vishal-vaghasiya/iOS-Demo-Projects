@@ -1,0 +1,18 @@
+xcassets:
+  inputs:
+    - DualWhatsApp/Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: DualWhatsApp/Resources/SwiftGen/Images.swift
+
+fonts:
+  inputs: DualWhatsApp/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: DualWhatsApp/Resources/SwiftGen/Fonts.swift
+
+ib:
+  inputs: DualWhatsApp/UI
+  outputs:
+    templateName: scenes-swift4
+    output: DualWhatsApp/Resources/SwiftGen/Storyboards.swift

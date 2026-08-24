@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tkc-Oo-ANH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Emoji LetterVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="EmojiLetterVC" id="Y6W-OH-hqX" customClass="EmojiLetterVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Edt-s3-ONr">
+                                <rect key="frame" x="20" y="138" width="353" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="5A7-UI-cxG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Emoji" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YeB-T0-WBg">
+                                <rect key="frame" x="20" y="183" width="353" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cJb-oT-6IP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8S-Ej-vPS">
+                                <rect key="frame" x="157.66666666666666" y="228" width="78" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="nyh-I8-q26"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Generate">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickGenerate:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3gR-cT-56h"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="7K2-R7-cqk">
+                                <rect key="frame" x="176" y="273" width="41.333333333333343" height="501"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7K2-R7-cqk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="KYM-ST-jIc"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YeB-T0-WBg" secondAttribute="trailing" constant="20" id="NSg-jB-8aU"/>
+                            <constraint firstItem="d8S-Ej-vPS" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="RHK-Yy-bkM"/>
+                            <constraint firstItem="7K2-R7-cqk" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="VZp-OB-PXy"/>
+                            <constraint firstItem="Edt-s3-ONr" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="Y5A-9d-1rf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Edt-s3-ONr" secondAttribute="trailing" constant="20" id="Yei-0c-tOD"/>
+                            <constraint firstItem="7K2-R7-cqk" firstAttribute="top" secondItem="d8S-Ej-vPS" secondAttribute="bottom" constant="10" id="dg3-z2-UUV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="7K2-R7-cqk" secondAttribute="bottom" constant="10" id="fQ3-Qo-WKO"/>
+                            <constraint firstItem="d8S-Ej-vPS" firstAttribute="top" secondItem="YeB-T0-WBg" secondAttribute="bottom" constant="10" id="gAH-Cn-tgA"/>
+                            <constraint firstItem="YeB-T0-WBg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="i6z-dg-KZ6"/>
+                            <constraint firstItem="YeB-T0-WBg" firstAttribute="top" secondItem="Edt-s3-ONr" secondAttribute="bottom" constant="10" id="sdN-9M-8sm"/>
+                            <constraint firstItem="Edt-s3-ONr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="xSf-40-Pia"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fUh-Pf-KMM"/>
+                    <connections>
+                        <outlet property="lblEmojiLetter" destination="7K2-R7-cqk" id="AqF-ms-rSe"/>
+                        <outlet property="txtChar" destination="Edt-s3-ONr" id="YQg-It-rpb"/>
+                        <outlet property="txtEmoji" destination="YeB-T0-WBg" id="Z0N-Gj-9Zo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="-49.295774647887328"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cEb-qu-LEw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="tkc-Oo-ANH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BU2-bD-X1O">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="B5j-NQ-eXs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKY-6x-GGB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="-49.295774647887328"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

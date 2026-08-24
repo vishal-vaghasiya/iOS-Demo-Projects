@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="e58-Tc-3Kt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dBa-AV-IDK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BOS-BZ-k9M">
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="Vie-Mk-wRl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wup-y9-Opn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+        <!--QuotesVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="QuotesVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="QuotesVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fdr-iO-0u6">
+                                <rect key="frame" x="0.0" y="162" width="393" height="622"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="68a-pV-aQA"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="m6R-xy-fLW"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fdr-iO-0u6" secondAttribute="trailing" id="2rF-Ug-dvP"/>
+                            <constraint firstItem="fdr-iO-0u6" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="Irk-8u-AhP"/>
+                            <constraint firstItem="fdr-iO-0u6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="QZz-7h-fsY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="fdr-iO-0u6" secondAttribute="bottom" id="hMU-yp-sJJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wmc-wA-IdZ"/>
+                    <connections>
+                        <outlet property="quotesTV" destination="fdr-iO-0u6" id="Im3-JW-wb5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="811" y="-27"/>
+        </scene>
+        <!--View QuotesVC-->
+        <scene sceneID="SaQ-FQ-gA9">
+            <objects>
+                <viewController storyboardIdentifier="ViewQuotesVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6HL-mp-EUh" customClass="ViewQuotesVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SG2-qC-mRw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="g6l-fJ-Nft">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="6HL-mp-EUh" id="fXf-eD-6Sk"/>
+                                    <outlet property="delegate" destination="6HL-mp-EUh" id="9Tr-jz-lx5"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4z5-E9-GdG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4z5-E9-GdG" firstAttribute="bottom" secondItem="g6l-fJ-Nft" secondAttribute="bottom" id="7OD-Eo-VoE"/>
+                            <constraint firstItem="g6l-fJ-Nft" firstAttribute="top" secondItem="4z5-E9-GdG" secondAttribute="top" id="9C3-s5-Nf2"/>
+                            <constraint firstItem="4z5-E9-GdG" firstAttribute="trailing" secondItem="g6l-fJ-Nft" secondAttribute="trailing" id="Gnk-8b-PnZ"/>
+                            <constraint firstItem="g6l-fJ-Nft" firstAttribute="leading" secondItem="4z5-E9-GdG" secondAttribute="leading" id="gQk-Bq-RIc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gGu-dO-7ma"/>
+                    <connections>
+                        <outlet property="quotesTV" destination="g6l-fJ-Nft" id="pQs-iQ-bv4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MsJ-jv-59R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1483" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

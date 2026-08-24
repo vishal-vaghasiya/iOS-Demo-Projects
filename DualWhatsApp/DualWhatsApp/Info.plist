@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+	</array>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>4fzdc2evr5.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>2fnua5tdw4.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>ydx93a7ass.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>p78axxw29g.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>v72qych5uu.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>ludvb6z3bs.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cp8zw746q7.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3sh42y64q3.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>c6k4g5qg8m.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>s39g8k73mm.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3qy4746246.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>f38h382jlk.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>hs6bdukanm.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>mlmmfzh3r3.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>v4nxqhlyqp.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>wzmmz9fp6w.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>su67r6k2v3.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>yclnxrl5pm.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>t38b2kh725.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>7ug5zh24hu.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>gta9lk7p23.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>vutu7akeur.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>y5ghdn5j9k.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>v9wttpbfk9.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>n38lu8286q.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>47vhws6wlr.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>kbd757ywx3.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>9t245vhmpl.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>a2p9lx4jpn.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>22mmun2rn5.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>44jx6755aq.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>k674qkevps.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>4468km3ulz.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>2u9pt9hc89.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>8s468mfl3y.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>klf5c3l5u5.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>ppxm28t8ap.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>kbmxgpxpgc.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>uw77j35x4d.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>578prtvx9j.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>4dzt52r2t5.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>tl55sbb4fm.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>c3frkrj4fj.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>e5fvkxwrpn.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>8c4e2ghe7u.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3rd42ekr43.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>97r2b46745.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3qcr597p9d.skadnetwork</string>
+		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Eater-Regular.ttf</string>
+		<string>Creepster-Regular.ttf</string>
+		<string>Hugh-is-Life-Personal-Use.ttf</string>
+		<string>GERALDINE-PERSONAL-USE.ttf</string>
+		<string>RUSTY ATTACK DEMO Regular.ttf</string>
+		<string>Zaslia.ttf</string>
+		<string>OceanTrace.ttf</string>
+		<string>MistletoeMagic.ttf</string>
+		<string>Firlest-Regular.ttf</string>
+		<string>Thunky DEMO.ttf</string>
+		<string>RUSTED PERSONAL USE.ttf</string>
+		<string>Olivera_Demo.ttf</string>
+		<string>NgeticModern-Regular.ttf</string>
+		<string>Austin-Shocks.ttf</string>
+		<string>Aestera.ttf</string>
+		<string>Amorria-Brush.ttf</string>
+		<string>ArtNouveauCaps.ttf</string>
+		<string>AvignonNF.ttf</string>
+		<string>Beauty Gadish OTF.ttf</string>
+		<string>Beyond Wonderland.ttf</string>
+		<string>Bigdey Demo.ttf</string>
+		<string>Bloody Scary.ttf</string>
+		<string>BOTANIC PERSONAL USE.ttf</string>
+		<string>Bubble Love Demo.ttf</string>
+		<string>Buttercup Flower.ttf</string>
+		<string>CamelotCaps.ttf</string>
+		<string>CameoAppearanceNF.ttf</string>
+		<string>Candy Cane Personal Use.ttf</string>
+		<string>Carevo.ttf</string>
+		<string>Cattie-Regular.ttf</string>
+		<string>CurlyFleurCaps.ttf</string>
+		<string>Dream Her - TTF.ttf</string>
+		<string>DSRomantiques.ttf</string>
+		<string>Egyptienne Zierversalien.ttf</string>
+		<string>ExtraOrnamentalNo2.ttf</string>
+		<string>FancyPantsNF.ttf</string>
+		<string>Fireplace_PERSONAL_USE_ONLY.ttf</string>
+		<string>FlickingDEMO-Regular.ttf</string>
+		<string>Former Broston.ttf</string>
+		<string>FROSTING BW PERSONAL USE.ttf</string>
+		<string>GladoliaDEMO-Regular.ttf</string>
+		<string>Gloria.ttf</string>
+		<string>GothicFlourish.ttf</string>
+		<string>Griastetrial.ttf</string>
+		<string>HALLOWEEN DEMO Regular.ttf</string>
+		<string>Halloween Handwriting.ttf</string>
+		<string>Havana.ttf</string>
+		<string>HeyBetty-Regular.ttf</string>
+		<string>HolyRavioliNF.ttf</string>
+		<string>Kejaxitrial.ttf</string>
+		<string>KingsCross.ttf</string>
+		<string>Kingthings Willow.ttf</string>
+		<string>Kingthings Willowless.ttf</string>
+		<string>Latchboy.ttf</string>
+		<string>LimeBlossomCaps.ttf</string>
+		<string>LittleCartoonDemoRegular.ttf</string>
+		<string>LittleLordFontleroyNF.ttf</string>
+		<string>LoversQuarrel-Regular.ttf</string>
+		<string>Lyzero DEMO.ttf</string>
+		<string>Mango Lover DEMO.ttf</string>
+		<string>MedievalAlphabet.ttf</string>
+		<string>MeltingTown.ttf</string>
+		<string>Milk Peach.ttf</string>
+		<string>Naluka.ttf</string>
+		<string>Nemo Nightmares.ttf</string>
+		<string>NeueZierSchrift.ttf</string>
+		<string>Pamela.ttf</string>
+		<string>Paper Inko.ttf</string>
+		<string>PrincessSofia-Regular.ttf</string>
+		<string>Qepo DEMO.ttf</string>
+		<string>Qomariah Arabic.ttf</string>
+		<string>Rengkoxpersonal.ttf</string>
+		<string>RetroDiscoDEMO-Regular.ttf</string>
+		<string>Ringlet Black.ttf</string>
+		<string>Romantiques.ttf</string>
+		<string>Rose Anthem.ttf</string>
+		<string>RothenburgDecorative.ttf</string>
+		<string>Roueta Creupo.ttf</string>
+		<string>RoyalInitialen.ttf</string>
+		<string>Sentinel.ttf</string>
+		<string>Showboat.ttf</string>
+		<string>SpiderCave-Regular.ttf</string>
+		<string>Spring.ttf</string>
+		<string>StripesCaps.ttf</string>
+		<string>Sugar Peachy DEMO.ttf</string>
+		<string>Suicra Crukods Trial.ttf</string>
+		<string>Syamsiah Arabic.ttf</string>
+		<string>TAKE A SHOT PERSONAL USE.ttf</string>
+		<string>TenderleafRegular.ttf</string>
+		<string>The Valentino.ttf</string>
+		<string>trashco.ttf</string>
+		<string>Trimen Drawing Demo.ttf</string>
+		<string>Trocader.ttf</string>
+		<string>UndergroundNF.ttf</string>
+		<string>WaterSplash-w1gWw.ttf</string>
+		<string>WhiteLettersDemoRegular.ttf</string>
+		<string>WHOA SAUCE PERSONAL USE.ttf</string>
+		<string>Yomogi Trial.ttf</string>
+		<string>Zachian Trial.ttf</string>
+		<string>ZallmanCaps.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+	</array>
+</dict>
+</plist>

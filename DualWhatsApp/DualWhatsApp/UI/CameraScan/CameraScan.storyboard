@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RQH-dC-seH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera ScanerVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="CameraScanerVC" id="Y6W-OH-hqX" customClass="CameraScanerVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFf-tq-kZ0">
+                                <rect key="frame" x="0.0" y="162" width="393" height="622"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lFf-tq-kZ0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="9KL-2g-pPC"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="lFf-tq-kZ0" secondAttribute="bottom" id="IDX-e5-wEn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="lFf-tq-kZ0" secondAttribute="trailing" id="MDy-xP-5Kf"/>
+                            <constraint firstItem="lFf-tq-kZ0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="Vpa-Dc-y4f"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="j0v-Z5-KOc">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Torch" style="done" id="Dn7-U7-ltQ">
+                                <connections>
+                                    <action selector="clickTorch:" destination="Y6W-OH-hqX" id="vBK-W4-P43"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Photos" id="OGX-gM-UdD">
+                                <connections>
+                                    <action selector="clickPhotos:" destination="Y6W-OH-hqX" id="wcv-Qy-Qgz"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="scannerContainerView" destination="lFf-tq-kZ0" id="qwc-xM-FDR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057.2519083969464" y="-49.295774647887328"/>
+        </scene>
+        <!--Bar CodeVC-->
+        <scene sceneID="ZOT-Sb-ghy">
+            <objects>
+                <viewController storyboardIdentifier="BarCodeVC" id="sIQ-xh-a9b" customClass="BarCodeVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dEi-0b-n4P">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFj-L2-SUt">
+                                <rect key="frame" x="10" y="138" width="373" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIs-Y9-l52">
+                                <rect key="frame" x="154" y="171" width="85" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="iWJ-UM-GSS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Open URL">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickOpenURL:" destination="sIQ-xh-a9b" eventType="touchUpInside" id="Nt1-Lt-iSt"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5nw-Ef-ipQ">
+                                <rect key="frame" x="10" y="216" width="373" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TR-7e-E5W">
+                                        <rect key="frame" x="0.0" y="0.0" width="181.66666666666666" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="mWt-tj-oFW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Copy">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clickCopy:" destination="sIQ-xh-a9b" eventType="touchUpInside" id="LF7-gN-eDe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsW-wz-dbx">
+                                        <rect key="frame" x="191.66666666666663" y="0.0" width="181.33333333333337" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="nYM-Ah-R8B"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Share">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clickShare:" destination="sIQ-xh-a9b" eventType="touchUpInside" id="287-7M-oGt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AAN-4g-bAN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IIs-Y9-l52" firstAttribute="top" secondItem="cFj-L2-SUt" secondAttribute="bottom" constant="10" id="0JK-yo-aKy"/>
+                            <constraint firstItem="cFj-L2-SUt" firstAttribute="top" secondItem="AAN-4g-bAN" secondAttribute="top" constant="20" id="0fd-uf-r8E"/>
+                            <constraint firstItem="IIs-Y9-l52" firstAttribute="centerX" secondItem="AAN-4g-bAN" secondAttribute="centerX" id="Bed-Mb-vMS"/>
+                            <constraint firstItem="AAN-4g-bAN" firstAttribute="trailing" secondItem="cFj-L2-SUt" secondAttribute="trailing" constant="10" id="Rnp-67-2ig"/>
+                            <constraint firstItem="5nw-Ef-ipQ" firstAttribute="leading" secondItem="AAN-4g-bAN" secondAttribute="leading" constant="10" id="Y2A-8K-63v"/>
+                            <constraint firstItem="AAN-4g-bAN" firstAttribute="trailing" secondItem="5nw-Ef-ipQ" secondAttribute="trailing" constant="10" id="bJR-LJ-dnE"/>
+                            <constraint firstItem="5nw-Ef-ipQ" firstAttribute="top" secondItem="IIs-Y9-l52" secondAttribute="bottom" constant="10" id="fsL-ov-aNO"/>
+                            <constraint firstItem="cFj-L2-SUt" firstAttribute="leading" secondItem="AAN-4g-bAN" secondAttribute="leading" constant="10" id="hrd-yw-5Ms"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblUrl" destination="cFj-L2-SUt" id="mtZ-Ft-Xgb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eS1-ep-geM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1804" y="-49"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nsC-9a-a8i">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RQH-dC-seH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nb6-mX-xd8">
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="YDu-hg-jbD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mbz-so-eLa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-49.295774647887328"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

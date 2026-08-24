@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oF2-mx-R3O">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="lxd-Au-RA1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oF2-mx-R3O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TRM-Iz-NYT">
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cAF-3T-ymY" kind="relationship" relationship="rootViewController" id="ZKl-9I-34r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h3A-KM-yhs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1893.8931297709923" y="-49.295774647887328"/>
+        </scene>
+        <!--Web WhatsappVC-->
+        <scene sceneID="Grh-r5-yrk">
+            <objects>
+                <viewController storyboardIdentifier="WebWhatsappVC" id="cAF-3T-ymY" customClass="WebWhatsappVC" customModule="DualWhatsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Gy-sN-zse">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9W-q5-o4W">
+                                <rect key="frame" x="0.0" y="162" width="393" height="622"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nw5-gt-cIi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Q9W-q5-o4W" firstAttribute="leading" secondItem="Nw5-gt-cIi" secondAttribute="leading" id="AyQ-01-0JQ"/>
+                            <constraint firstItem="Nw5-gt-cIi" firstAttribute="bottom" secondItem="Q9W-q5-o4W" secondAttribute="bottom" id="Ncv-f2-wfI"/>
+                            <constraint firstItem="Q9W-q5-o4W" firstAttribute="top" secondItem="Nw5-gt-cIi" secondAttribute="top" id="uja-S0-OCd"/>
+                            <constraint firstItem="Nw5-gt-cIi" firstAttribute="trailing" secondItem="Q9W-q5-o4W" secondAttribute="trailing" id="wS9-BG-9Lg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GDA-wK-yFe"/>
+                    <connections>
+                        <outlet property="webView" destination="Q9W-q5-o4W" id="C2d-tP-msf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Drd-PD-HFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2556" y="-49"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

